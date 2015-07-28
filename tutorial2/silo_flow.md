@@ -17,7 +17,7 @@ The discharge of non-spherical particles in flat bottom silo was simulated using
 in Fig 1a. The shape of the particle was modelled as combination of two spheres of
 diameter 3 mm clumped together to give an aspect ratio of 1.25 as shown in Fig.1 (b).
 The silo is centrally filled from the top and the filling is considered to be completed
-when the total kinetic energy of the system reaches below 1E-08 J which is negligble
+when the total kinetic energy of the system reaches below 1E-08 J which is negligible
 when compared to the total K.E of the system during discharge (J). The material is
 them allowed to discharge by removing the outlet plate.
 
@@ -80,7 +80,7 @@ The following procedure demonstrates how to generate structured mesh with tetrah
 
 Select `Mesh ⇒ Structured ⇒ Volumes ⇒ Assign number of cells`.
 
-Select the volume by clicking on Cyan colored boundary (By default, volumes are represented by this colour) with mouse and pressing Escape pops ups Enter value
+Select the volume by clicking on Cyan coloured boundary (By default, volumes are represented by this colour) with mouse and pressing Escape pops ups Enter value
 window. Specify the number of cells to be assigned along each axis. Enter 20 and click assign and then select any line parallel to X-axis which then automatically selects the
 rest of lines parallel to X-axis and press Escape. Repeat the same procedure and assign 20 and 4 number of cells along Z and Y axis respectively. Close the enter the value
 window after the finishing the assignment.
@@ -129,8 +129,8 @@ The following values were used for this exercise:
 - `FUNCTION TYPE`: GAUSSIAN
 - `WIDTH` : GLOBAL
 - `WIDTH VALUE` : 0.0045
-- `CUTOFF VALUE` : 3
-- `SPATIAL INTERGRAL` : NO.
+- `CUT-OFF VALUE` : 3
+- `SPATIAL INTEGRAL` : NO.
 - `CALCULATE GRADIENTS` : YES.
 
 **Output**
