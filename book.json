@@ -1,0 +1,27 @@
+{
+  "title": "P4 Documentation",
+  "version": "1.0.0",
+  "language": "en",
+  "variables": {
+      "host": "mybook.com"
+  },
+  "links": {
+    "sidebar": {
+      "Particle Analytics": "http://particle-analytics.com",
+      "Documentation": "index.html"
+    },
+    "sharing": {
+      "google": "",
+      "facebook": "",
+      "twitter": "",
+      "weibo": "",
+      "all": ""
+    }
+  },
+  "plugins": ["mathjax","collapsible-menu"],
+  "pluginsConfig": {
+    "mathjax":{
+        "forceSVG": true
+    }
+  }
+}
