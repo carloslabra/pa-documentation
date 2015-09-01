@@ -1,4 +1,4 @@
-# Toolbox for analytrics
+# Toolbox for analytics
 
 This option display the list of available tools to export/manipulate results defined for the post-process.
 
@@ -27,4 +27,3 @@ This is useful to process old simulations available in GiD post-process format.
 Similar to *[Export current result nodes]*, but sending the information to the graph buffer without write a file.
 
   ![Alt Text](img/p4_post_toolbox_create_graph.png "export current")
-
