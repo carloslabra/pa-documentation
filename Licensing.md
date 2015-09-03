@@ -1,6 +1,6 @@
 # Particle Analytics : Licensing Terms
 
-The Particle Analytics Pre- and Post-Processor software is licensed according to [this end-user licence agreement](licensing/particle_analytics_licence.txt).  In addition to that licence agreement, a number of third-party licences apply, as documented in the next section.
+The Particle Analytics Pre- and Post-Processor software is licensed according to [this end-user licence agreement](licensing/particle_analytics_licence.md).  In addition to that licence agreement, a number of third-party licences apply, as documented in the next section.
 
 ## Licences Used in The Particle Analytics Pre- and Post-Processor
 
