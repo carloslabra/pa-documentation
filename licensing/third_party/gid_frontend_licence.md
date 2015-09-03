@@ -4,7 +4,7 @@
 
 This license is a legal agreement between the individual or company who has obtained a license of the software program GiD (hereafter referred to as USER) and the International Center for Numerical Methods in Engineering (hereafter referred to as CIMNE). This License represents the entire and exclusive agreement between USER and CIMNE.
 
-LICENSE COVERAGE
+## LICENSE COVERAGE
 
 This License shall be effective upon its execution by both USER and CIMNE and shall remain in force for its full term unless it is terminated by USER or by CIMNE.
 
@@ -16,13 +16,13 @@ For the purposes of this agreement, an "Installation Site" shall mean a single p
 
 CIMNE can, at his own decision, permit the transfer of the license to a new physical computer, provided that GiD is completely uninstalled and deleted from the previous computer.
 
-TERM OF LICENSE
+## TERM OF LICENSE
 
 The period for authorized use of GiD, under the terms and conditions of this License, shall continue until CIMNE or USER terminate this License. Additionally, this license will be terminated when the computer or portable device where the software has been installed, ceases to operate, changes the Operating System or its physical configuration, unless CIMNE decides to provide a license transfer to another computer.
 
 CIMNE can provide special licenses that have a termination date. In this case, the termination date will be clearly defined in the contract.
 
-USE AND REPRODUCTION LIMITATIONS
+## USE AND REPRODUCTION LIMITATIONS
 
 USER can make additional copies of GiD when they are needed for maintenance or backup purposes.
 
@@ -36,35 +36,35 @@ USER can redistribute a modified copy of GiD, in its indicia or insignia or exte
 
 GiD customization work, as defined in section SIMPLE PROBLEMTYPE, that does not include GiD or parts thereof is not considered as included in the former paragraph and can therefore be distributed without requesting permission from CIMNE..
 
-SIMPLE PROBLEMTYPE
+## SIMPLE PROBLEMTYPE
 
 For the purposes of this license, a "simple problemtype" is defined as the customization work that is developed by the User to adapt GiD to a specific analysis program.  The content of a Simple Problemtype is restricted to the customization work only, and shall not include the original GiD program, or any parts or sections thereof.  Furthermore, the Simple Problemtype shall meet the following guidelines:
 
 It can:
 
-¨       Define new conditions, materials, general data and interval data.
+ * Define new conditions, materials, general data and interval data.
 
-¨       Define the template for writing an analysis file and the script to start the calculation.
+ * Define the template for writing an analysis file and the script to start the calculation.
 
-¨       The analysis program can write files in GiD postprocessing format.
+ * The analysis program can write files in GiD postprocessing format.
 
-¨       Define new functionalities, like new windows to enter data for the user, by programming with the extension language TCL.
+ * Define new functionalities, like new windows to enter data for the user, by programming with the extension language TCL.
 
-¨       Define its own help system and add it in the program Help menu or other menu.
+ * Define its own help system and add it in the program Help menu or other menu.
 
 It cannot:
 
-¨       Change the name of the program or any of its identifying insignias.
+ * Change the name of the program or any of its identifying insignias.
 
-¨       Change or take out the “About window” and the “Register window”.
+ * Change or take out the “About window” and the “Register window”.
 
-¨       Change or modify the standard GiD help.
+ * Change or modify the standard GiD help.
 
-¨       Include GiD software in a different installation media than the one included in the standard GiD distribution.
+ * Include GiD software in a different installation media than the one included in the standard GiD distribution.
 
 Any modification to GiD that fails to comply with these guidelines cannot be considered a “simple problemtype” and will be only distributed under the terms of section USE AND REPRODUCTION LIMITATIONS.
 
-EVALUATION VERSION
+## EVALUATION VERSION
 
 GiD evaluation version is a fully functional version, except that it has some limitations on the size of the models that can be dealt with.
 
@@ -72,13 +72,13 @@ GiD evaluation version can be freely used by USER without the need of a license.
 
 GiD evaluation version can be redistributed provided that it is subject to the terms and conditions of this License.
 
-TEST VERSION
+## TEST VERSION
 
 A test version of GiD is the temporary activation of GiD full program by the means of a free and temporary password.
 
 This test version is provided with the sole purpose of testing the program and checking its capabilities. It cannot be used for any production work unless otherwise stated by CIMNE.
 
-REDISTRIBUTION OF GID AS COMPONENT OF OTHER PRODUCT
+## REDISTRIBUTION OF GID AS COMPONENT OF OTHER PRODUCT
 
 GiD can be adapted and converted to a component of another software product for internal use of USER.
 
@@ -88,13 +88,13 @@ This type of distribution is accepted and promoted by CIMNE. To qualify for the 
 
 Note the special case of a “simple problemtype” defined in sections USE AND REPRODUCTION LIMITATIONS and SIMPLE PROBLEMTYPE.
 
-UPDATE AND MAINTENANCE
+## UPDATE AND MAINTENANCE
 
 For the current version of GiD, no updates or maintenance are provided. CIMNE may provide free user support to a certain extent, to USER and, always, at CIMNE criteria.
 
 CIMNE can provide additional product support, based on a fee, by the means of third party companies, previously approved by CIMNE.
 
-DISCLAIMERS
+## DISCLAIMERS
 
 In no event shall CIMNE be liable to USER for any damages, including, but not limited to, direct, indirect, special or consequential damages, arising out of, resulting from, or in any way connected with the performance or breach of this License, whether or not based upon warranty, contract, tort or otherwise, whether or not injury was sustained by persons or property or otherwise, and whether or not loss was sustained from loss of use, data, or profits.
 
