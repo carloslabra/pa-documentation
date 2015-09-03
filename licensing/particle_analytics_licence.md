@@ -1,4 +1,4 @@
-Particle Pre & Post Processor Software
+Particle Pre- & Post- Processor Software
 
 Copyright (c) 2015 Particle Analytics Limited
 
