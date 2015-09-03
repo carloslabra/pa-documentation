@@ -1,11 +1,11 @@
 Particle Pre & Post Processor Software
 Copyright (c) 2015 Particle Analytics Limited
 
-*** END USER LICENSE AGREEMENT ***
+# END USER LICENSE AGREEMENT
 
 IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
 
-1. LICENSE
+# 1. LICENSE
 
 By receiving, opening the file package, and/or using Particle Pre & Post Processor ("The Software") containing this software, you agree that this End User User License Agreement (EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
 
@@ -15,13 +15,13 @@ Subject to the terms of this Agreement, Particle Analytics Limited grants to you
 
 If you do not agree to be bound by this agreement, remove The Software from your computer now and, if applicable, promptly return to Particle Analytics Limited by mail any copies of The Software and related documentation and packaging in your possession.
 
-2. DISTRIBUTION
+# 2. DISTRIBUTION
 
 The Software and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of The Software contact Particle Analytics Limited.
 
-3. USER AGREEMENT
+# 3. USER AGREEMENT
 
-3.1 Use
+## 3.1 Use
 
 Your license to use The Software is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of The Software.
 
