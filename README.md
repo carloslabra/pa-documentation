@@ -30,6 +30,7 @@ This is the summary of the documentation.
   * [Visualizing averaged results](manual/post/post_view_coarse_graining.md)
   * [Using P4 with EDEM](manual/post/post_edem.md)
   * [Using P4 with Liggghts](manual/post/post_liggghts.md)
+* [Licensing](Licensing.md)
 * [Tutorials](tutorials.md)
   * [Analysis of dynamic systems: Fluidized bed](tutorial1/fluidized_bed.md)
   * [Silo flow](tutorial2/silo_flow.md)
