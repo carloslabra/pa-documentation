@@ -8,7 +8,7 @@ IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
 
 # 1. LICENSE
 
-By receiving, opening the file package, and/or using Particle Pre & Post Processor ("The Software") containing this software, you agree that this End User User License Agreement (EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
+By receiving, opening the file package, and/or using Particle Pre- & Post-Processor ("The Software") containing this software, you agree that this End User User License Agreement (EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
 
 Unless you have a different license agreement signed by Particle Analytics Limited your use of The Software indicates your acceptance of this license agreement and warranty.
 
