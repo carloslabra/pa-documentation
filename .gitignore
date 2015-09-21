@@ -4,3 +4,4 @@
 *.mobi
 *.pdf
 /build*/
+*~
