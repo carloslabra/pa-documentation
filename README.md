@@ -3,10 +3,10 @@
 This is the summary of the documentation.
 
 * [Installation](manual/installation.md)
-* [P4-Pre](manual/pre.md)
+* [Pre-Processing](manual/pre.md)
   * [Introduction](manual/pre/introduction.md)
   * [Settings](manual/pre/settings.md)
-* [P4-Post](manual/post.md)
+* [Post-Processing](manual/post.md)
   * [Introduction](manual/post/introduction.md)
   * [Preparing post-processing](manual/post/post_preprocessing.md)
     * [Generating a model](manual/post/post_generating_a_model.md)
