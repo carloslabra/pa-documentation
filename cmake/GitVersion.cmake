@@ -9,6 +9,12 @@ function(git_version_string _var)
   endif()
   execute_process(COMMAND
     ${GIT_EXECUTABLE}
+    fetch
+    --tags
+    origin
+    master)
+  execute_process(COMMAND
+    ${GIT_EXECUTABLE}
     describe
     --tags
     --long
