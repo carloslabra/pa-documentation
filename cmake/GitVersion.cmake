@@ -12,7 +12,7 @@ function(git_version_string _var)
     fetch
     --tags
     origin
-    master)
+    )
   execute_process(COMMAND
     ${GIT_EXECUTABLE}
     describe
