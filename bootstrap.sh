@@ -15,6 +15,3 @@ wget https://s3-eu-west-1.amazonaws.com/particle-analytics/Dependencies/Linux/$c
 cd $bsDir
 chmod +x $zip
 ./$zip x $cmake -ocmake -y
-
-# remove no-longer-needed cmake .7z file
-rm -f $cmake

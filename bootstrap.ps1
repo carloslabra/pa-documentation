@@ -22,10 +22,4 @@ if ( Test-Path cmake )
 
 Invoke-Expression -Command ".\7za.exe x $cmakeZip -ocmake -y"
 
-# now get rid of the 5Meg cmake zip file (if it unzipped nicely)
-if ( Test-Path cmake )
-{
-  Remove-Item $cmakeZip -Force
-}
-
 cd ../..
