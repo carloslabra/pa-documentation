@@ -1,28 +1,33 @@
 # Installation
 
-For the installation of GiD, please download and follow the instructions in the GiD web page:
-[http://www.gidhome.com/download](http://www.gidhome.com/download).
+This section explains how to install P4 on a Linux or Windows system.  If installing for many users, administrator priviledges will be required.  If only installing for yourself, no such priviledges should be necessary.  You will need to be on a machine which is connected to the internet.
 
-* Extract the compressed file of P4 into GiD problemtypes folder, located in the GiD installation folder.
-(The folder location can change depending of the GiD installation)
+Begin by getting an installer executable from Particle Analytics.  If you do not already have this executable, contact _support@particle-analytics.com_ or visit [our website](www.particle-analytics.com/contact.php).
 
-  - Linux: */usr/local/lib/GiDx64/11.0.5/problemtypes*
-  - Windows: *C:\ProgramFiles\GiD\11.0.5\problemtypes*
+## Running the Installer
+
+Once you run the installer, a window like this should appear ...
+![Screenshot](install/img/installerPage1.png)
+The should be no need to edit the _Settings_, simply hit _Next_ to get the next installer window ...
+![Screenshot](install/img/installerPage2.png)
+Here, you set the installation folder.  Those without administrator priviledges will need to chose a location which is appropriate to the priviledges that they do have.  Whilst the image above shows an x64 windows installer, a linux installer will chose a different (more appropriate) default installation location.
+![Screenshot](install/img/installerPage3.png)
+The next job is to decide whether you're are opting for a Complete or a Custom build.  This probably comes down to whether you want documentation, or not.  Installing documentation is recommended.
+![Screenshot](install/img/installerPage5.png)
+Accepting the _End User Licence Agreement_ is a necessary step if you with to continue with the installation.  You are encouraged to read this agreement before accepting.
+![Screenshot](install/img/installerPage8.png)
+The penultimate screen will show a progress bar as the different components install.  Once this is finished, simply hit _Finish_ on the final installer window.
 
 
-* Open GID and get the machine information appearing at Register Problem Type window (`Help > Register Problem Type`)
+## Your Licence
 
-![Screenshot](install/img/p4_register_problemtype_2.png)
+When you first run P4, a window like this should appear ...
+![Screenshot](install/img/licencePage1.png)
+Copy the _Name_, _Operating System_ and _Sysinfo_ data from that window and contact Particle Analytics (_support@particle-analytics.com_) with the information.  We will then give you a licence file specific to your machine.  Save this file in a location you can find again.
 
-* Ones you have received your P4 licence, enter the password in the Register dialog box.
+Next, 
+ * Pull down the _Help > Register from file..._ option.   
+ * Navigate to your licence file, select it, and open it
 
-* Restart GiD and select P4 problemtype in the GiD menu (`Data > Problem Type > P4`) to start to work with P4.
-
-> Note:
-> 
-> If you have an USB compatible with GiD connected to the computer, you must choose *"Local machine"* sysinfo - Choose
-> the P4 problemtype and use the information displayed to request your P4 licence.
-> The password will be sent to the email address provided in the form.
->
 
 
