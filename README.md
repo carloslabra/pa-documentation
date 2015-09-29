@@ -3,9 +3,9 @@
 This is the summary of the documentation.
 
 * [Installation](manual/installation.md)
-* [Pre-Processing](manual/pre.md)
-  * [Introduction](manual/pre/introduction.md)
-  * [Settings](manual/pre/settings.md)
+<!-- * [Pre-Processing](manual/pre.md) -->
+  <!-- * [Introduction](manual/pre/introduction.md) -->
+  <!-- * [Settings](manual/pre/settings.md) -->
 * [Post-Processing](manual/post.md)
   * [Introduction](manual/post/introduction.md)
   * [Preparing post-processing](manual/post/post_preprocessing.md)
