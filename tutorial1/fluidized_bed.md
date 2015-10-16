@@ -1,8 +1,7 @@
-*Title: Analysis of dynamic systems: Fluidized bed*
+#Tutorial 1: Fluidized bed
 
 *Author: Prashant Gupta*
 
-*Date: February 28, 2014*
 
 ##Introduction
 
@@ -60,7 +59,7 @@ Save the project in `Menu ⇒ File ⇒ Save`.
 
 ![Screenshot](img/geo.png)
 
-*Figure 2: Domain for meshing as produced by GiD*
+*Figure 2: Domain for meshing as produced by P4*
 
 
 
@@ -111,7 +110,7 @@ These can be visualized by: Go to `Menu > View Results > Smooth Contour Fill > S
 
 *Figure 4: Time averaged contour plots of bubbling fluidized beds showing (a) Averaged velocity in axial direction (b) Averaged vertical velocity (c) Averaged solid fraction*
 
-For obtaining graph (say a line plot) 5, Use GiD utilities to make line plots at different heights Y = 0.0164 m and 0.0312 m. Go to: `Several graphs option > Line graph > Solid fraction`. This will prompt to select points, enter coordinates as *(0.0, 0.0164)* and *(0.044, 0.0164)* to plot line variation graph at height 0.0164 m. (Refer to GiD manual if more information is required)
+For obtaining graph (say a line plot) 5, Use utilities to make line plots at different heights Y = 0.0164 m and 0.0312 m. Go to: `Several graphs option > Line graph > Solid fraction`. This will prompt to select points, enter coordinates as *(0.0, 0.0164)* and *(0.044, 0.0164)* to plot line variation graph at height 0.0164 m. (Refer to Visualization manual if more information is required)
 
 ![Screenshot](img/line-plots.png)
 

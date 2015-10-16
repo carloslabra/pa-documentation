@@ -1,8 +1,7 @@
-*Title: Silo flow*
+#Tutorial 2: Silo flow
 
 *Author: Pratap Kasina*
 
-*Date: February 2014*
 
 ##Introduction
 
@@ -25,8 +24,7 @@ The data is exported at 200 Hz from EDEM during 20-30 % of material discharged f
 the silo. The results which are time averaged during 20-30 % of material discharged
 from the silo are reported here in the form of contour and graphical plots. The following
 sections describe the procedure to achieve the above mentioned objective with the use of
-GiD software combined with P4 plugin which includes three main steps: pre- processing,
-averaging the data, post processing.
+P4, which includes three main steps: pre- processing, averaging the data, post processing.
 
 
 ![Screenshot](img/Fig1.png)
@@ -34,7 +32,7 @@ averaging the data, post processing.
 
 ##Pre-processing
 
-The pre-processing includes creating the geometry of the system followed by discretisation of the domain with one of the various methods available in GiD.
+The pre-processing includes creating the geometry of the system followed by discretisation of the domain with one of the various methods available in P4.
 
 **Create a box**
 
@@ -48,12 +46,12 @@ lists next to Entity types and Transformation. Select volumes from the list next
 
 
 ![Screenshot](img/Fig2_updated.png)
-*Figure 2: Layout of GiD pre-processor*
+*Figure 2: Layout of P4 pre-processor*
 
 
 **Create lines for graph**
 
-It is recommended to create additional lines in the domain along which the results are expected to plot. This avoids any interpolation of data by GiD while plotting a line
+It is recommended to create additional lines in the domain along which the results are expected to plot. This avoids any interpolation of data while plotting a line
 graph (refer to section 4.5) if there are no nodes on the line. The P4 then calculates the information on the nodes of these lines.
 
 Having decided the location of lines for graphs it is easy to generate all of them at once by recording a macro while create one line and then edit the same macro to create
@@ -61,7 +59,7 @@ multiple lines in one click. The process in described below:
 
 - Click on record macro button (as shown in Fig 2)
 - `Geometry ⇒ Create ⇒ Straight line`. Input the coordinates of the line from command window as (-0.075, 0.015, 0) and (0.075, 0.015, 0).
-- `Geometry ⇒ Edit ⇒ Divide ⇒ lines ⇒ Number of divisions`. Enter 20 and click ok. This prompts the user to select lines from the viewer window. Select the line created in step 2 and press escape (In GiD, pressing Escape key ends a command or finishes input definition for any selected function).
+- `Geometry ⇒ Edit ⇒ Divide ⇒ lines ⇒ Number of divisions`. Enter 20 and click ok. This prompts the user to select lines from the viewer window. Select the line created in step 2 and press `Escape` (Pressing `Escape` key ends a command or finishes input definition for any selected function).
 - Stop recording the Marco by click the same button. This saves a macro file (displayed next to the record macro button) and right clicks the file and select
 edit widow: copy the first command of the macro multiple times and change the coordinates of the lines in commands. Create four equally spaced lines along Y
 direction at heights of 0.015, 0.045, 0.075, and 0.105 as shown in Fig 3.
@@ -140,13 +138,12 @@ The following values were used for this exercise:
 - `OUTPUT FILENAME` : Give appropriate output file. P4 writes the all data to this file.
 
 Click on start process as shown in Fig 2 and the progress can be monitored by clicking on information icon next to start process icon. A message pops up on the screen after
-the process is finished. This generates .bin file in the working directory. At this stage, the pre-processing of DEM results is finished and by clicking on the post processing
-icon shown in Fig 2 the GiD switches to post processing mode.
+the process is finished. This generates bindary file (extension *.bin*) in the working directory. At this stage, the pre-processing of DEM results is finished and by clicking on the post processing icon shown in Fig 2 switches to post processing mode.
 
 ##Post-processing
 
 This section describes on how to visualise the results using contour plots and graphs.
-GiD has also several other options to visualising the results, for example iso-surfaces, streamlines etc (refer GiD manual for more information).
+P4 has also several other options to visualising the results, for example iso-surfaces, streamlines etc (refer Visualization manual for more information).
 
 **Load result file**
 
@@ -159,7 +156,7 @@ is available. `View Results ⇒ Default Analysis/Time step ⇒ Time Step`. Selec
 
 **Select display style**
 
-There are various options in GiD to display the geometry which are discussed in P4 Manual.
+There are various options in P4 to display the geometry which are discussed in P4 Manual.
 The display can be customised, for example turning off the mesh elements, turning on/off the other geometric elements. The display of mesh elements and lines
 that are created for graph can be turned off from the *SELECT AND DISPLAY STYLE* window. The geometric entities present in the domain are displayed as a list in *SELECT
 AND DISPLAY STYLE WINDOW* and any selected entity can be turned off from display by click on I/O. Similarly the mesh elements can be turned off by selecting the
@@ -168,7 +165,7 @@ solid option for the section ST as shown in Fig 5.
 
 ![Screenshot](img/Fig5_updated.png)
 
-*Figure 5: Layout of GiD post processor*
+*Figure 5: Layout of post-processor (visualization)*
 
 
 

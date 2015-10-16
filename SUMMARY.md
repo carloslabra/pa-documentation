@@ -33,6 +33,6 @@
    * [P4 Licence](licensing/particle_analytics_licence.md)
    * [3rd party licences](licensing/3rd_party_licences.md)
 * [Tutorials](tutorials.md)
-   * [Analysis of dynamic systems: Fluidized bed](tutorial1/fluidized_bed.md)
+   * [Fluidized bed](tutorial1/fluidized_bed.md)
    * [Silo flow](tutorial2/silo_flow.md)
 
