@@ -1,4 +1,4 @@
-# P4 Documentation
+# Particle Analytics Documentation
 
 This is the summary of the documentation.
 

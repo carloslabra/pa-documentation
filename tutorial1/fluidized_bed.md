@@ -24,7 +24,7 @@ This tutorial is aimed at explaining meshing required and outputting useful resu
 
 
 
-##Pre-processing
+##Preparing analysis
 
 
 Domain of the problem is a pseudo 3-D cuboid which is created according to the simulation parameters given in the table. Idea is to create a rectangular section with x from 0.0 to 0.044 and y from 0.0 to 0.12 and extrude in z direction. This can be done by following these step:
@@ -63,7 +63,7 @@ Save the project in `Menu ⇒ File ⇒ Save`.
 
 
 
-##P4 settings
+##Analysis settings
 
 Dump files are created by lammps as dump.p3p, dump.p3c and dump.p3w as particle definition file, contact data and particle-wall contact data respectively.
 Next P4 toolbox is loaded by going to `Data ⇒ Problem type ⇒ p4-v0.4` (whichever is the latest version).
@@ -102,7 +102,7 @@ After selecting appropriate settings, press `SELECT` and save the project file o
 
 
 
-##Post Processing
+##Visualizing results
 
 These can be visualized by: Go to `Menu > View Results > Smooth Contour Fill > Solid Fraction or Velocity X,Y`. This would provide us time averaged smooth contour plots like in figure 4.
 

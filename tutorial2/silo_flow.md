@@ -30,9 +30,11 @@ P4, which includes three main steps: pre- processing, averaging the data, post p
 ![Screenshot](img/Fig1.png)
 *Figure 1: (a) Schematic diagram of flat bottom silo (b) Particle shape*
 
-##Pre-processing
+##Preparing analysis
 
 The pre-processing includes creating the geometry of the system followed by discretisation of the domain with one of the various methods available in P4.
+
+###Generating the projection domain
 
 **Create a box**
 
@@ -69,7 +71,7 @@ direction at heights of 0.015, 0.045, 0.075, and 0.105 as shown in Fig 3.
 *Figure 3: Problem domain showing the lines for graphs*
 
 
-**Meshing**
+###Creating the Mesh
 
 The volume is meshed with structured tetrahedral elements. The user has also have options to mesh the volumes with other element types including hexahedral and prisms.
 The following procedure demonstrates how to generate structured mesh with tetrahedral elements.
@@ -140,7 +142,7 @@ The following values were used for this exercise:
 Click on start process as shown in Fig 2 and the progress can be monitored by clicking on information icon next to start process icon. A message pops up on the screen after
 the process is finished. This generates bindary file (extension *.bin*) in the working directory. At this stage, the pre-processing of DEM results is finished and by clicking on the post processing icon shown in Fig 2 switches to post processing mode.
 
-##Post-processing
+##Analysing results
 
 This section describes on how to visualise the results using contour plots and graphs.
 P4 has also several other options to visualising the results, for example iso-surfaces, streamlines etc (refer Visualization manual for more information).

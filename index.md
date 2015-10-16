@@ -1,4 +1,4 @@
-# P4 Documentation
+# Particle Analytics Documentation
 
 <!-- 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
