@@ -35,4 +35,5 @@
 * [Tutorials](tutorials.md)
    * [Fluidized bed](tutorial1/fluidized_bed.md)
    * [Silo flow](tutorial2/silo_flow.md)
-
+   * [Axial compression](tutorial3/uniaxial_compression_test.md)
+   * [Soil excavation](tutorial4/bucket_excavator_digging.md)
