@@ -1,4 +1,4 @@
-# P4 Post-processor - User Manual
+# Post-Processor
 
 * [Introduction](post/introduction.md)
 * [Preparing post-processing](post/post_preprocessing.md)

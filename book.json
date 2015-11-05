@@ -1,5 +1,5 @@
 {
-  "title": "P4 Documentation",
+  "title": "Documentation",
   "version": "1.0.0",
   "language": "en",
   "variables": {
@@ -16,6 +16,17 @@
       "twitter": "",
       "weibo": "",
       "all": ""
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 15,
+    "paperSize": "a4",
+    "margin": {
+        "right": 62,
+        "left": 62,
+        "top": 62,
+        "bottom": 72
     }
   },
   "plugins": ["mathjax","collapsible-menu"],
