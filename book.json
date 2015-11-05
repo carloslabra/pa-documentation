@@ -7,8 +7,7 @@
   },
   "links": {
     "sidebar": {
-      "Particle Analytics": "http://particle-analytics.com",
-      "Documentation": "index.html"
+      "Particle Analytics": "http://particle-analytics.com"
     },
     "sharing": {
       "google": "",
@@ -28,6 +27,9 @@
         "top": 62,
         "bottom": 72
     }
+  },
+  "styles": {
+    "pdf": "styles/pdf.css"
   },
   "plugins": ["mathjax","collapsible-menu"],
   "pluginsConfig": {
