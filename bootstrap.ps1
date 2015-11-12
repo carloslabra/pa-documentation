@@ -10,8 +10,8 @@ if ( !(Test-Path $bsDir) )
 }
 
 # Get required binaries
-Invoke-WebRequest -Uri https://s3-eu-west-1.amazonaws.com/particle-analytics/Dependencies/Windows/7za.exe -Method Get -OutFile $bsDir\7za.exe
-Invoke-WebRequest -Uri https://s3-eu-west-1.amazonaws.com/particle-analytics/Dependencies/Windows/cmake-3.3.1-win.7z -Method Get -OutFile $bsDir\$cmakeZip
+Invoke-WebRequest -Uri https://s3-eu-west-1.amazonaws.com/particle-analytics/dependencies/windows/7za.exe -Method Get -OutFile $bsDir\7za.exe
+Invoke-WebRequest -Uri https://s3-eu-west-1.amazonaws.com/particle-analytics/dependencies/windows/cmake-3.3.1-win.7z -Method Get -OutFile $bsDir\$cmakeZip
 
 # extract required binaries, with some cmake dir-name tidying
 cd $bsDir

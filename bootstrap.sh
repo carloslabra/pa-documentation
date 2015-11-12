@@ -8,8 +8,8 @@ rm -rf $bsDir
 mkdir -p $bsDir
 
 # Get required binaries
-wget https://s3-eu-west-1.amazonaws.com/particle-analytics/Dependencies/Linux/$zip -P $bsDir 2> /dev/null
-wget https://s3-eu-west-1.amazonaws.com/particle-analytics/Dependencies/Linux/$cmake -P $bsDir 2> /dev/null
+wget https://s3-eu-west-1.amazonaws.com/particle-analytics/dependencies/linux/$zip -P $bsDir 2> /dev/null
+wget https://s3-eu-west-1.amazonaws.com/particle-analytics/dependencies/linux/$cmake -P $bsDir 2> /dev/null
 
 # extract cmake binaries
 cd $bsDir
