@@ -2,16 +2,16 @@
 
 When the user start the GiD post-processor, GiD will display a new toolbar at the left of your GiD main screen, as shown in the Figure.
 
-![Alt Text](img/post_postprocess_toolbar.png "Example of P4 Toolbox within GiD")
+![Alt Text](img/post_postprocess_toolbar.png "Example of Particle-Analytics Toolbox")
 
-*Figure. Example of P4 Toolbar for post-processing results.*
+*Figure. Example of Particle-Analytics Toolbar for post-processing results.*
 
 The description of the different commands in the post-process toolbar is shown below:
 
 
 | | |
 |:-------:|:------|
-| ![Screenshot](img/post_help.png)     | **P4 help.** |
+| ![Screenshot](img/post_help.png)     | **Particle-Analytics help.** |
 | ![Screenshot](img/post_open.png)     | **Load post-process file.** Show the list of result files available in the project. |
 | ![Screenshot](img/post_graphs.png)   | **Graph manager.** Allows load/saving/manipulate of graph data. |
 | ![Screenshot](img/post_toolbox.png)  | **Toolbox.** List of available routines for manipulation and export results. |

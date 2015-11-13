@@ -18,7 +18,7 @@ The results shown are: Number of nodes for the average, the average value, and t
 * **Add legend.** Display the Comment windows to visualize a legend with the present result.
 (To see the detailed list of options available in GiD help: `Help > General Aspects > Utilities Menu > Tools > Comments > Postprocessing`)
 
-* **Convert GiD particles to P4.** The option write a P4 file with the particle information using the P3/P4 format.
+* **Convert GiD particles to Particle-Analytics.** The option write a Particle-Analytics file with the particle information using the Particle-Analytics format.
 This is useful to process old simulations available in GiD post-process format.
 
   ![Alt Text](img/p4_post_toolbox_export_particles.png "export current")

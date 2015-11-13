@@ -1,6 +1,6 @@
 # Processing control
 
-The process control is defined by 3 main commands to execute (), show info () and cancel () the execution of P4.
+The process control is defined by 3 main commands to execute (), show info () and cancel () the execution of Particle-Analytics.
 
 * **Start Process.** Initiate the processing of the simulation results. Check the setting and launch the process.
 

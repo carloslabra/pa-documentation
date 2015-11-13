@@ -1,22 +1,21 @@
- # Preparing post-processing
+# Preparing post-processing
 
-Once the P4 problemtype is started, GiD will display a new toolbar at the left (or top) of your GiD main
-screen, as shown in Fig 3.1.
+Upon start-up, the Particle-Analytics toolbar is available, as shown in Fig 2, below.
 
-![Alt Text](img/post_preprocess_toolbar.png "Example of P4 Toolbox within GiD")
+![Alt Text](img/post_preprocess_toolbar.png "Example of Particle-Analytics Toolbox within GiD")
 
-*Figure 3.1. Example of P4 Toolbox within GiD.*
+*Figure 2. Particle-Analytics Toolbar*
 
 
 The description of the different commands in the toolbar is presented below:
 
 | | |
 |:-------:|:------|
-| ![Screenshot](img/pre_help.png)      | **P4 help.** |
+| ![Screenshot](img/pre_help.png)      | **Particle-Analytics help.** |
 | ![Screenshot](img/pre_settings.png)  | **Processing options.** Define input files and averaging method. |
 | ![Screenshot](img/pre_surfaces.png)  | **Assign geometry/surface condition.** |
 | ![Screenshot](img/pre_notes.png)     | **Notes.** Used to record notes on options such as averaging widths or grid size, etc. |
-| ![Screenshot](img/pre_tools.png)     | **Toolbox.** EDEM Converter: Convert EDEM data files to P3/P4 files. |
+| ![Screenshot](img/pre_tools.png)     | **Toolbox.** EDEM Converter: Convert EDEM data files to Particle-Analytics files. |
 | ![Screenshot](img/pre_run_exec.png)  | **Start Processing.** |
 | ![Screenshot](img/pre_run_info.png)  | **View Info.** Info for current process. |
 | ![Screenshot](img/pre_run_stop.png)  | **Stop Processing.** |

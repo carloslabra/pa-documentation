@@ -6,7 +6,7 @@
 ##Introduction
 
 This tutorial describes the pre and post processing of the data obtained by DEM simulation
-of a bucket excavator digging into a cohesive soil. The aim of using P4 is to obtain the
+of a bucket excavator digging into a cohesive soil. The aim of using Particle-Analytics is to obtain the
 stress and solid fraction fields in order to obtain relevant information for the understanding
 of the loading action and soil flow during the digging process.
 
@@ -39,7 +39,7 @@ The DEM simulation was conducted using EDEM 2.5 and the interaction between the
 particles is defined by an Elasto-plastic frictional adhesive contact model [?].
 The simulation was run for 2.41 s and the data was exported at a frequency of 10Hz.
 The exported files with the information of the particles and the contacts follow the standard format
-described in the Apendix A of the P4 user manual.
+described in the Apendix A of the Particle-Analytics user manual.
 
 
 ![Screenshot](img/Bucket_geo_kin.png)
@@ -96,7 +96,7 @@ in Figure 4c.
 
 
 In this section it will be explained how to setup the different parameter for the analysis
-with P4. The preferences for the analysis can setup at the button named “CG preferences” that is located just below P4 symbol.
+with Particle-Analytics. The preferences for the analysis can setup at the button named “CG preferences” that is located just below Particle-Analytics symbol.
 A window like the one shown in Figure 5 will appear.
 Problem data window has five different sections named : Input, Time Averaging, Spatial Averaging, Output and Advanced.
 The preferences used in this tutorial for each field are the following.
@@ -145,9 +145,9 @@ The preferences used in this tutorial for each field are the following.
 
 ##Visualizing results
 
-After finishing the P4 analysis a the software displays a window and click on post process button.
+After finishing the Particle-Analytics analysis a the software displays a window and click on post process button.
 This will change Gid to postprocess version to visualise the results.
-First, load the file from the P4 post processing tool bar. This will load the results of the Coarse graining process.
+First, load the file from the Particle-Analytics post processing tool bar. This will load the results of the Coarse graining process.
 
 ### Figures
 
@@ -186,7 +186,7 @@ In this case, standard scale color is chosen and Max and Min values are 0.65 and
 ###Images and Videos
 
 The figures created each time step can be exported as Image files or video files. This can be
-done using the Animations tool at the P4 toolbar (see section 4.4 of the P4 user manual).
+done using the Animations tool at the Particle-Analytics toolbar (see section 4.4 of the Particle-Analytics user manual).
 In this tutorial the figures are exported as image files in png format. After clicking on the
 Animations tool, the “Animate” tool window is opened. Go to “Save image” and activate
 the “Save” button. Chose a header name and a directory to save the image files. Then,

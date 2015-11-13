@@ -4,7 +4,7 @@ This command displays a sub-menu to create/edit/save graphs.
 
 ![Alt Text](img/p4_post_graphs_submenu.png "Graph manager sub-menu")
 
-<!-- *Figure. Example of P4 Toolbox within GiD.* -->
+<!-- *Figure. Example of Particle-Analytics Toolbox within GiD.* -->
 
 * **Graph Manager.** Open the Graphs Manager of GiD. (See GiD help on Graphs manipulation: `Menu > Windows > View graphs`)
 

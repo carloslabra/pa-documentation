@@ -1,13 +1,13 @@
 # Visualizing averaged results
 
-After the model is processed and the P4 output files are generated, the standard visualization capabilities
-of GiD can be used, together with a set of special tools and commands specific of P4 for the analysis of
+After the model is processed and the Particle-Analytics output files are generated, the standard visualization capabilities
+of GiD can be used, together with a set of special tools and commands specific of Particle-Analytics for the analysis of
 the results.
 
 The output file can load the particles in the *Load post-process file* section of the toolbar (with GiD in
 post-process mode).
 
-Ones the file is loaded, the different meshes used in the process will appear in the Display Style window.
+Once the file is loaded, the different meshes used in the process will appear in the Display Style window.
 To visualize the averaged results, the toolbar *View Results Menu* can be used (`Menu > View results`), or through the Results Window [].
 
 Based in the same previous example of particle visualization, the figure below depicted the density
@@ -92,7 +92,7 @@ information required.
 
 With the previous example, the average density over the Y direction is calculated following as:
 
-* Activate the integral in Axis-Y. In the *P4 Options: Spatial_Integral = 1D*, and *Integral_direction = Y*.
+* Activate the integral in Axis-Y. In the *Particle-Analytics Options: Spatial_Integral = 1D*, and *Integral_direction = Y*.
 
 * In Output options: Scale Results = yes and Scale Value = 1/L (L is the length in Y direction).
 

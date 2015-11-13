@@ -26,8 +26,8 @@ For full documentation visit [particle-analytics.com/docs](http://particle-analy
 
 **User Manual**
 
-- [P4-Pre](./manual/pre.md)
-- [P4-Post](./manual/post.md)
+- [Particle-Analytics-Pre](./manual/pre.md)
+- [Particle-Analytics-Post](./manual/post.md)
 
 **Tutorials:**
 

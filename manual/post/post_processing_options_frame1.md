@@ -11,7 +11,7 @@ filtered by time ranges, steps frequency and particle groups.
 the case of the experimental liggghts dump file, the file extension expected is (.p).
 
 * **Process Contact Files.** [on/off] This options activates the processing of particle-particle and particle-
-wall contact files if they are detected. P4 assumes that contact files have the same name that the particle
+wall contact files if they are detected. Particle-Analytics assumes that contact files have the same name that the particle
 files, with extensions .p3c and .p3w
 
 ##### READING TIME STEPS
@@ -27,7 +27,7 @@ files, with extensions .p3c and .p3w
 
 ##### PARTICLE FILTERS
 
-* **Fixed Particle System.** [on/off] Indicate to P4 that the number of particles and IDs are fixed for the
+* **Fixed Particle System.** [on/off] Indicate to Particle-Analytics that the number of particles and IDs are fixed for the
 duration of the simulation being analysed.
 
 * **Filter Group-ID.** [on/off] This option is used to indicate that a specific group ID of particles will be

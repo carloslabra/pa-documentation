@@ -1,6 +1,6 @@
 # Installation
 
-This section explains how to install P4 on a Linux or Windows system.  If installing for many users, administrator priviledges will be required.  If only installing for yourself, no such priviledges should be necessary.  You will need to be on a machine which is connected to the internet.
+This section explains how to install Particle-Analytics on a Linux or Windows system.  If installing for many users, administrator priviledges will be required.  If only installing for yourself, no such priviledges should be necessary.  You will need to be on a machine which is connected to the internet.
 
 Begin by getting an installer executable from Particle Analytics.  If you do not already have this executable, contact _support@particle-analytics.com_ or visit [our website](www.particle-analytics.com/contact.php).
 
@@ -30,7 +30,7 @@ The penultimate screen will show a progress bar as the different components inst
 
 ## Your Licence
 
-When you first run P4, a window like this should appear ...
+When you first run Particle-Analytics, a window like this should appear ...
 
 ![Screenshot](install/img/licencePage1.png)
 

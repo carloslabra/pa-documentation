@@ -1,11 +1,11 @@
 # Output
 
-This section is used to define the output generation from P4. Allows activate the particles/contacts
+This section is used to define the output generation from Particle-Analytics. Allows activate the particles/contacts
 visualization files, activate special results or scale the results.
 
 ![Screenshot](img/p4_settings_frame4.png)
 
-* **File Type.** [GiD_Binary / GiD_Ascii] Allows to chose the type of output/post-process file written in P4.
+* **File Type.** [GiD_Binary / GiD_Ascii] Allows to chose the type of output/post-process file written in Particle-Analytics.
 The binary file reduce the file size, but no problems can be checked in the file. The Ascii file, allows to
 access and read the results directly in a text editor, but increase the file size.
 
@@ -15,7 +15,7 @@ or define a different one (OTHER).
 * **Output Filename.** When Other Output File is chosen, define the user name for the output/post-process
 file.
 
-* **Scale Results.** [on/off] Used to scale the results of P4. This option, combined with the spatial integrals,
+* **Scale Results.** [on/off] Used to scale the results of Particle-Analytics. This option, combined with the spatial integrals,
 is useful to calculate the average in a certain direction or plane.
 
 * **Scale Value.** When Scale Results is activated, define the value used to scale the results.
@@ -26,7 +26,7 @@ to visualize the particles in the post-processor, but increase the processing ti
 * **Print Particles Contact.** When Print Particles is activated, this option is used to add the contact
 information in the particles output file.
 
-* **Print Symmetric Stress.** [on/off] Normally, the stress calculated in P4 produce a non-symmetric tensor
+* **Print Symmetric Stress.** [on/off] Normally, the stress calculated in Particle-Analytics produce a non-symmetric tensor
 and the 9 components of the tensor should be written. This option is used to force the symmetry in the
 stress tensor, and just 6 components are required.
 

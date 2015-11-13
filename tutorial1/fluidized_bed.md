@@ -5,7 +5,7 @@
 
 ##Introduction
 
-This document describes pre and post processing of fluidized bed system using P4 tool developed in University of Edinburgh. Brief description of 3D DEM-CFD simulation is presented in following section, followed by pre and post processing of particle data (DEM). This case study was done as a post processing of validation data. High quality validation experimental data obtained was used for comparisons. Time averaged particle velocity and solid fraction profiles/contours were obtained. This case study would demonstrate how to post process DEM data obtained from simulations to compare against experiments.
+This document describes pre and post processing of fluidized bed system using Particle-Analytics tool developed in University of Edinburgh. Brief description of 3D DEM-CFD simulation is presented in following section, followed by pre and post processing of particle data (DEM). This case study was done as a post processing of validation data. High quality validation experimental data obtained was used for comparisons. Time averaged particle velocity and solid fraction profiles/contours were obtained. This case study would demonstrate how to post process DEM data obtained from simulations to compare against experiments.
 Millimeter size particles are subjected to a fluidizing velocity much greater than minimum fluidization velocity. This leads to transient bubbling/slugging regime. Bubbles are formed around the distributor plate, rise and coalesce and collapse at the free surface of the bed. Hence, bubbling and mixing behavior leads to lower solid fraction in the middle of the bed and lower particle velocities at the walls. Typical snapshot of such a phenomenon can be seen in figure 1.
 
 ![Screenshot](img/snapshotbed.png)
@@ -13,7 +13,7 @@ Millimeter size particles are subjected to a fluidizing velocity much greater th
 *Figure 1: Typical snapshot of DEM-CFD simulation of gas-solid fluidized bed with particle size 1.2 mm and density 1000 kg/m at inlet velocity 0.9 m/s*
 
 **Input:**
-DEM data in this tutorial is extracted from Lammps using dump class available in Lammps-ed version. For more details, refer to the P4 Manual on how to dump data from lammps-ed.
+DEM data in this tutorial is extracted from Lammps using dump class available in Lammps-ed version. For more details, refer to the Particle-Analytics Manual on how to dump data from lammps-ed.
 
 **Output:**
 This tutorial is aimed at explaining meshing required and outputting useful results such as smooth contour plots and line plots for dynamic granular system such as fluidized bed. After this tutorial, Following output would be obtained:
@@ -59,17 +59,17 @@ Save the project in `Menu ⇒ File ⇒ Save`.
 
 ![Screenshot](img/geo.png)
 
-*Figure 2: Domain for meshing as produced by P4*
+*Figure 2: Domain for meshing as produced by Particle-Analytics*
 
 
 
 ##Analysis settings
 
 Dump files are created by lammps as dump.p3p, dump.p3c and dump.p3w as particle definition file, contact data and particle-wall contact data respectively.
-Next P4 toolbox is loaded by going to `Data ⇒ Problem type ⇒ p4-v0.4` (whichever is the latest version).
-This will load P4 toolbox.
-Click on the CG preferences button just below P4 symbol.
-Following settings are used in the P4 tool box for present example.
+Next Particle-Analytics toolbox is loaded by going to `Data ⇒ Problem type ⇒ p4-v0.4` (whichever is the latest version).
+This will load Particle-Analytics toolbox.
+Click on the CG preferences button just below Particle-Analytics symbol.
+Following settings are used in the Particle-Analytics tool box for present example.
 
 **Input**
 

@@ -7,8 +7,8 @@
 
 The objective of this tutorial is to demonstrate how to convert the particle scale data that is generated from DEM to a scale at which the experimental data is usually collected.
 Particle scale data is averaged spatially using coarse graining technique and the
-theoretical background of this technique is discussed in P4 manual. The flow patterns
-of granular solids in flat bottom silo is analysed using P4 in order to validate the model
+theoretical background of this technique is discussed in Particle-Analytics manual. The flow patterns
+of granular solids in flat bottom silo is analysed using Particle-Analytics in order to validate the model
 by comparing the results with experimental observations.
 
 The discharge of non-spherical particles in flat bottom silo was simulated using EDEM
@@ -24,7 +24,7 @@ The data is exported at 200 Hz from EDEM during 20-30 % of material discharged f
 the silo. The results which are time averaged during 20-30 % of material discharged
 from the silo are reported here in the form of contour and graphical plots. The following
 sections describe the procedure to achieve the above mentioned objective with the use of
-P4, which includes three main steps: pre- processing, averaging the data, post processing.
+Particle-Analytics, which includes three main steps: pre- processing, averaging the data, post processing.
 
 
 ![Screenshot](img/Fig1.png)
@@ -32,7 +32,7 @@ P4, which includes three main steps: pre- processing, averaging the data, post p
 
 ##Preparing analysis
 
-The pre-processing includes creating the geometry of the system followed by discretisation of the domain with one of the various methods available in P4.
+The pre-processing includes creating the geometry of the system followed by discretisation of the domain with one of the various methods available in Particle-Analytics.
 
 ###Generating the projection domain
 
@@ -48,13 +48,13 @@ lists next to Entity types and Transformation. Select volumes from the list next
 
 
 ![Screenshot](img/Fig2_updated.png)
-*Figure 2: Layout of P4 pre-processor*
+*Figure 2: Layout of Particle-Analytics pre-processor*
 
 
 **Create lines for graph**
 
 It is recommended to create additional lines in the domain along which the results are expected to plot. This avoids any interpolation of data while plotting a line
-graph (refer to section 4.5) if there are no nodes on the line. The P4 then calculates the information on the nodes of these lines.
+graph (refer to section 4.5) if there are no nodes on the line. The Particle-Analytics then calculates the information on the nodes of these lines.
 
 Having decided the location of lines for graphs it is easy to generate all of them at once by recording a macro while create one line and then edit the same macro to create
 multiple lines in one click. The process in described below:
@@ -102,18 +102,18 @@ Fig 4.
 
 ##Analysis settings
 
-This section describes the definition of parameters required to average the DEM results using P4.
-This includes the specification of which coarse graining function to be used, coarse graining width and cut-off factor (for more details refer P4 manual), the method
+This section describes the definition of parameters required to average the DEM results using Particle-Analytics.
+This includes the specification of which coarse graining function to be used, coarse graining width and cut-off factor (for more details refer Particle-Analytics manual), the method
 of time averaging and format of output file for saving the data.
 
-Click on the problem data icon of P4 toolbar as shown in Fig 2 which opens up a problem data window.
+Click on the problem data icon of Particle-Analytics toolbar as shown in Fig 2 which opens up a problem data window.
 
 The following values were used for this exercise:
 
 
 **Input**
 
-- `PARTICLES FILENAME` : Read the .p4p file (refer to P4 manual for conversion of DEM data to .p4p)
+- `PARTICLES FILENAME` : Read the .p4p file (refer to Particle-Analytics manual for conversion of DEM data to .p4p)
 - Tick Process Contacts Files option.
 - `READING TIME STEP` : ALL
 - `STEP FREQUENCY` : 1
@@ -137,7 +137,7 @@ The following values were used for this exercise:
 
 - `FILE TYPE` : GiD Binary
 - `OUTPUT FILE` : Other
-- `OUTPUT FILENAME` : Give appropriate output file. P4 writes the all data to this file.
+- `OUTPUT FILENAME` : Give appropriate output file. Particle-Analytics writes the all data to this file.
 
 Click on start process as shown in Fig 2 and the progress can be monitored by clicking on information icon next to start process icon. A message pops up on the screen after
 the process is finished. This generates bindary file (extension *.bin*) in the working directory. At this stage, the pre-processing of DEM results is finished and by clicking on the post processing icon shown in Fig 2 switches to post processing mode.
@@ -145,7 +145,7 @@ the process is finished. This generates bindary file (extension *.bin*) in the w
 ##Analysing results
 
 This section describes on how to visualise the results using contour plots and graphs.
-P4 has also several other options to visualising the results, for example iso-surfaces, streamlines etc (refer Visualization manual for more information).
+Particle-Analytics has also several other options to visualising the results, for example iso-surfaces, streamlines etc (refer Visualization manual for more information).
 
 **Load result file**
 
@@ -158,7 +158,7 @@ is available. `View Results ⇒ Default Analysis/Time step ⇒ Time Step`. Selec
 
 **Select display style**
 
-There are various options in P4 to display the geometry which are discussed in P4 Manual.
+There are various options in Particle-Analytics to display the geometry which are discussed in Particle-Analytics Manual.
 The display can be customised, for example turning off the mesh elements, turning on/off the other geometric elements. The display of mesh elements and lines
 that are created for graph can be turned off from the *SELECT AND DISPLAY STYLE* window. The geometric entities present in the domain are displayed as a list in *SELECT
 AND DISPLAY STYLE WINDOW* and any selected entity can be turned off from display by click on I/O. Similarly the mesh elements can be turned off by selecting the

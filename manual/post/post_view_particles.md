@@ -1,6 +1,6 @@
 # Visualizing particles
 
-After activate *Print Particles* in the OUTPUT options of P4 and run the P4 processing, the user can
+After activate *Print Particles* in the OUTPUT options of Particle-Analytics and run the Particle-Analytics processing, the user can
 load the particles in the *Load post-process file* section of the toolbar (with GiD in post-process mode).
 The files containing the particles, and optionally the contacts, have the extension .particles after the user
 defined name.

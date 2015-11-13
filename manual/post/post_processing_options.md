@@ -1,6 +1,6 @@
 # Processing options
 
-This is the main P4 processing control setting. It is used to define the input files, averaging parameters,
+This is the main Particle-Analytics processing control setting. It is used to define the input files, averaging parameters,
 and output options.
 
 Frames:

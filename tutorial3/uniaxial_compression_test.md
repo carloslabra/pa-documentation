@@ -8,7 +8,7 @@
 The flow behaviour and handling characteristics of cohesive granular solids are strongly
 dependent on the prior consolidation stress experienced by the solid. This can be
 assessed by test methods such as shear tester or uniaxial testers. The following tutorial
-describes the use of P4 to analyse a DEM simulation of a uniaxial tester to measure
+describes the use of Particle-Analytics to analyse a DEM simulation of a uniaxial tester to measure
 properties such as density, packing fraction and stress and to search for phenomena
 such as local shear bands.
 
@@ -100,20 +100,20 @@ This should look like Figure 3b
 
 
 
-Standard P4 export files are generated for EDEM for both particle and contact data.
+Standard Particle-Analytics export files are generated for EDEM for both particle and contact data.
 Additional Angular Velocity Queries (X,Y,Z) are included for the Particles data file.
-Files are converted from the standard EDEM .csv to the P4 format using the EDEM-P4
+Files are converted from the standard EDEM .csv to the Particle-Analytics format using the EDEM-Particle-Analytics
 converter as described in Appendix A.
 
 
-Clicking on the CG preferences button (just below P4 symbol) will
+Clicking on the CG preferences button (just below Particle-Analytics symbol) will
 open the settings toolbox which comprises of 4 sub toolboxes: Main, Input, CG and
 Input.
 
 **Input**
 
 
-- `PARTICLES FILENAME` : Browse to the destination of the converted P3/P4 files and select.
+- `PARTICLES FILENAME` : Browse to the destination of the converted Particle-Analytics files and select.
 - Process Contacts File option is checked to allow stress calculations
 - `READING TIME STEPS` : A time range of `ALL` is selected with a step frequency of 1.
 - `PARTICLE FILTERS` : Fixed Particle System option is checked. Using this option allows the cumulative displacement of particles top be calculated from the initial position of the particles in the analysis.
@@ -139,7 +139,7 @@ Input.
 - `PRINT PARTICLES` option is checked to visualise particles.
 
 Press the `ACCEPT` button to store the setting for analysis. Start process with the start
-process button in the P4 toolbar and allow data files to be processed by P4.
+process button in the Particle-Analytics toolbar and allow data files to be processed by Particle-Analytics.
 Progress can be viewed by selecting the view run info button.
 
 

@@ -21,5 +21,5 @@
   * [Change view mode](post/post_view_modes.md)
 * [Visualizing particles](post/post_view_particles.md)
 * [Visualizing averaged results](post/post_view_coarse_graining.md)
-* [Using P4 with EDEM](post/post_edem.md)
-* [Using P4 with Liggghts](post/post_liggghts.md)
+* [Using Particle-Analytics with EDEM](post/post_edem.md)
+* [Using Particle-Analytics with Liggghts](post/post_liggghts.md)

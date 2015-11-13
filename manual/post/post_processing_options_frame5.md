@@ -1,6 +1,6 @@
 # Advanced
 
-This section give access to advanced features of P4, like overwrite particle variables or groups.
+This section give access to advanced features of Particle-Analytics, like overwrite particle variables or groups.
 
 ![Screenshot](img/p4_settings_frame5.png)
 
