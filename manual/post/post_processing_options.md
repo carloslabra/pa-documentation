@@ -1,9 +1,11 @@
-# Processing options
+# Post-Processing Settings
 
-This is the main Particle-Analytics processing control setting. It is used to define the input files, averaging parameters,
+![Screenshot](img/pre_settings.png)
+
+This is the main Particle-Analytics post-processing control window. It is used to define the input files, averaging parameters,
 and output options.
 
-Frames:
+Tabs:
 
 * [Input](post_processing_options_frame1.md)
 * [Time Averaging](post_processing_options_frame2.md)

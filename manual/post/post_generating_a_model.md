@@ -58,15 +58,18 @@ Using the previous cube example, one could generate a structured mesh of tetrahe
   - Enter *10* and click *Assign*
   - Click one edge parallel to the X axis, and one edge parallel to the Y axis
   - (As each edge is clicked, you should see it and any parallel siblings change colour)
+<br><br>
 
 * Hit the `ESC` key; a value-entry window will appear.  
   - Enter *20* and click *Assign*
   - Click one edge parallel to the Z axis
+<br><br>
 
 * Hit the `ESC` key to exit structured mesh setup.  
 
 * Generate the mesh from the menu using `Mesh > Generate mesh...`. 
   - Ignore the *element size* asked for in the *Mesh generation* window and click `OK`.
+<br><br>
 
 * Once the mesh is generated, click *View mesh* in the *progress* window which has popped up
 
