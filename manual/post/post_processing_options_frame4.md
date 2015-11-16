@@ -1,42 +1,46 @@
-# Output
+## Output
 
-This section is used to define the output generation from Particle-Analytics. Allows activate the particles/contacts
-visualization files, activate special results or scale the results.
+This section is used to define the output generation from Particle-Analytics. This tab enables the activation of the particles/contacts visualization files, exposes the output of special results, and allows the user to scale the results.
 
-![Screenshot](img/p4_settings_frame4.png)
+![Post-Processing Settings: Output](img/postProSettingsOutputTab.png)
 
-* **File Type.** [GiD_Binary / GiD_Ascii] Allows to chose the type of output/post-process file written in Particle-Analytics.
-The binary file reduce the file size, but no problems can be checked in the file. The Ascii file, allows to
-access and read the results directly in a text editor, but increase the file size.
+##### Output File
 
-* **Output File.** [Default / Other] Allows the user to use the default name for the output file (DEFAULT)
-or define a different one (OTHER).
+* **File Type** : [GiD\_Binary / GiD\_Ascii] Allows users to chose the type of output/post-process file written by Particle-Analytics.  The binary file reduces the file size, but since such files are not human-readable, no problems can be checked in such output. The Ascii file increases the file size, but is human readable in a text editor. Use the former, unless you have good cause not to.
 
-* **Output Filename.** When Other Output File is chosen, define the user name for the output/post-process
+* **Default Output File** : [on / off] Allows the user to use the default name for the output file (if `on`) or define a different one (if `off`).
+
+* **Output File** : When `Default Output File` is `off`, define the file name for the output/post-process
 file.
 
-* **Scale Results.** [on/off] Used to scale the results of Particle-Analytics. This option, combined with the spatial integrals,
-is useful to calculate the average in a certain direction or plane.
+##### Coarse-Graining Results
 
-* **Scale Value.** When Scale Results is activated, define the value used to scale the results.
+* **Scale Results** : [on/off] Used to scale the results of Particle-Analytics. This option, combined with the spatial integrals, is useful when calculating the average in a certain direction or plane. The most common uses of the `Scale Results` option are:
+ - A change of units in the model.
 
-* **Print Particles.** [on/off] Used to write an extra output file with the particles information. This is required
-to visualize the particles in the post-processor, but increase the processing time.
+ - The calculation of the average value in a certain direction/plane. This is performed in combination with the 1D/2D integrals.
 
-* **Print Particles Contact.** When Print Particles is activated, this option is used to add the contact
-information in the particles output file.
+ - **Value** : When `Scale Results` is activated, define the scale value here.<br><br>
 
-* **Print Symmetric Stress.** [on/off] Normally, the stress calculated in Particle-Analytics produce a non-symmetric tensor
-and the 9 components of the tensor should be written. This option is used to force the symmetry in the
-stress tensor, and just 6 components are required.
+* **Print Symmetric Stress.** [on/off] Normally, the stress calculated in Particle-Analytics produces a non-symmetric tensor and all 9 components of the tensor will be written out. When this option is enabled, symmetry is enforced upon the stress tensor, and just 6 components are output.
 
-* **Print Pressure.** [on/off] This option is used to write the hydrostatic pressure of the contact stress tensor, defined as
+* **Print Contact Pressure** : [on/off] This option is used to write the hydrostatic pressure of the contact stress tensor, as defined by ![Hydrostatic pressure, defined](img/Eqn_Pressure.png)
 
-![Screenshot](img/Eqn_Pressure.png)
+##### Particle Results
 
-> NOTE:
+* **Print Particles.** [on/off] Used to write an extra output file with the particles information. This is required to visualize the particles in the post-processor, but will result in an increase in processing time.
 
-> The most common use of the Scale Results option are:
-> * The change of units in the model.
+ - **Print Contacts** : [on/off] When activated, this ensures the contact information appears in the particles output file.
 
-> * The calculation of the average value in a certain direction/plane. This is performed in combination with the 1D/2D integrals.
+ - **Print Particle Mass** : [on/off] When activated, this ensures the particle mass appears in the particles output file.
+
+ - **Print Particle Volume** : [on/off] When activated, this ensures the particle volume appears in the particles output file.
+
+ - **Print Particle Size** : [on/off] When activated, this ensures the particle size appears in the particles output file. For spherical particles, this is the radius of the sphere.  For non-spherical particles, this is the radius of a sphere whose volume is identical to that of the particle.
+
+
+
+
+
+
+

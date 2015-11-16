@@ -1,16 +1,19 @@
-# Advanced
+## Advanced
 
-This section give access to advanced features of Particle-Analytics, like overwrite particle variables or groups.
+This section exposes the advanced features of Particle-Analytics, such as overwriting particle velocity.
 
-![Screenshot](img/p4_settings_frame5.png)
+![Post-Processing Settings: Advanced](img/postProSettingsAdvancedTab.png)
 
-* **Overwrite Particle Variables.** [on/off] Allows the user to overwrite certain variables from the particle
-files. At the moment, just the velocity can be overwritten.
+##### Overwrite Particle Data
 
-* **Set Velocity_[X,Y,Z].** [on/off] When Overwrite Particle Variables is activated, allows the user to chose
-the component of the velocity vector to be overwritten.
+* **Overwrite Velocity** : [on/off] Allows the user to overwrite the velocity.
 
-* **Velocity_[X,Y,Z].** When Overwrite Particle Variables is activated, the value of the velocity used to
-overwrite this velocity component.
+ - **Set Velocity [X,Y,Z]** : When `Overwrite Velocity` is activated (`on`) users can overwrite individual velocity components by first enabling the [on/off] radio button for a particular component, and then entering the relevant value in the corresponding window.
 
-* **Groups Filename.** Define a file used to overwrite the particles group-ID in the particles file.
+* **Overwrite Groups** : [on/off] Allows the user to overwrite the particles' group-IDs.
+
+ - **Groups File** : If `Overwrite Groups` is enabled, define a file used to overwrite the particles' group-IDs in the particles file.
+
+##### Other Analysis
+
+* **Mixing Analysis** : [on/off]

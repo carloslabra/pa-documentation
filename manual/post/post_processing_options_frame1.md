@@ -2,7 +2,7 @@
 
 This section is used for the definition of the particles files to be processed. The files can be selected and filtered by time ranges, steps frequency and particle groups.
 
-![Screenshot](img/postProSettingsInputTab.png)
+![Post-Processing Settings: Input](img/postProSettingsInputTab.png)
 
 ##### Particle Input File
 
@@ -21,9 +21,9 @@ wall contact files if they are detected. Particle-Analytics assumes that contact
 
 * **All Time Steps** : [on/off] Used to activate the start/end time range (if `off`) and turn of the necessity for the range (if `on`). 
 
-* **Start Time** : If `All Time Steps` is `off`, define the time to initiate the input file processing.
+* **Start Time** : If `All Time Steps` is `off`, define the time at which Particle-Analytics should begin processing the input file.
 
-* **End Time** : If `All Time Steps` is `off`, define the time to finish the input file processing.
+* **End Time** : If `All Time Steps` is `off`, define the time at which Particle-Analytics should stop processing the the input file.
 
 * **Steps Frequency** : Chose the frequency for reading the time steps from the input files.
 
