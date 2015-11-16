@@ -1,6 +1,6 @@
 # Post-Processing Settings
 
-![Screenshot](img/pre_settings.png)
+![The "Post-Processing Settings" icon](img/pre_settings.png)
 
 This is the main Particle-Analytics post-processing control window. It is used to define the input files, averaging parameters,
 and output options.
