@@ -16,4 +16,4 @@ This section exposes the advanced features of Particle-Analytics, such as overwr
 
 ##### Other Analysis
 
-* **Mixing Analysis** : [on/off]
+* **Mixing Analysis** : [on/off] Allows the user to activate mixing analysis.   When enabled, the output will include information on the spatial distribution of each material, the *Lacey mixing index*, and its component parts, for every time-step which is processed.  In post-processing, one can render graphs of the mixing index and or its components, against time. Or, on can use the spatial distribution information to explore where each material is concentrated, at each time-step. 
