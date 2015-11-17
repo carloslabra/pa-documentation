@@ -20,7 +20,7 @@ Below, an example listing the required steps to generate a (2.0 x 2.0 x 2.0) cub
 * Second corner point: Enter *2 2 0* and then hit the `RETURN` key. 
 * Press `ESC` key to exit Rectangle generation.
 
-![Screenshot](img/cube_pre_rectangle.png)
+![](img/cube_pre_rectangle.png)
 
 * Next, extrude the square to generate a cubic volume: `Utilities > Copy...`.
 
@@ -35,11 +35,11 @@ Below, an example listing the required steps to generate a (2.0 x 2.0 x 2.0) cub
 
 * Press *Finish*
 
-![Screenshot](img/cube_pre_rectangle_to_volume.png)
+![](img/cube_pre_rectangle_to_volume.png)
 
 * To change the appearance of your cube explore the *Render* options (from the menu, `View > Render` or right click the mouse and chose *Render* from the resulting pull-down).
 
-![Screenshot](img/cube_pre_rectangle_to_volume_renders.png)
+![](img/cube_pre_rectangle_to_volume_renders.png)
 
 
 ## Meshing the geometry
@@ -75,13 +75,13 @@ Using the previous cube example, one could generate a structured mesh of tetrahe
 
 * Change the render to *Flat* for a better visualization of the mesh.
 
-![Screenshot](img/cube_pre_rectangle_to_volume_mesh_renders.png)
+![](img/cube_pre_rectangle_to_volume_mesh_renders.png)
 
 * The tetrahedra is the default type of 3D element. To use Hexahedra (Prism is reserved for
 semi-structured meshes), change the element type using: `Mesh > Element type > Hexahedra`,
 and click over the volume to assign the type and `ESC` to finish. Now generate again: `Mesh > Generate mesh...`.
 
-![Screenshot](img/cube_pre_rectangle_to_volume_hexahedra.png)
+![](img/cube_pre_rectangle_to_volume_hexahedra.png)
 
 
 > Note:

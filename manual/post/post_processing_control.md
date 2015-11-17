@@ -1,12 +1,16 @@
 # Processing control
 
-The process control is defined by 3 main commands to execute (), show info () and cancel () the execution of Particle-Analytics.
+The process control within Particle-Analytics is defined by 3 main commands:
 
-* **Start Process.** Initiate the processing of the simulation results. Check the setting and launch the process.
+* (![](img/pre_run_exec.png)) start processing
+* (![](img/pre_run_info.png)) show info, and 
+* (![](img/pre_run_stop.png)) cancel.
 
-* **View Run Info.** Shows a window with the evolution of the process, as in Figure below.
+* **Start Processing** : Initiate the processing of the simulation results. Check the settings and launch the process.
 
-![Screenshot](img/p4_run-info.png)
+* **View Run Info** : Shows a window with the evolution of the process, as shown below.
 
-* **Cancel Process.** Stop the execution. All the processed result until stop the process can be visualized in
+![](img/p4_run-info.png "Post-process output")
+
+* **Cancel Process** : Stop the execution. All the results generated thus far can be visualized in
 the post-process.

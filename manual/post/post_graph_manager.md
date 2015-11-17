@@ -2,7 +2,7 @@
 
 This command displays a sub-menu to create/edit/save graphs.
 
-![Alt Text](img/p4_post_graphs_submenu.png "Graph manager sub-menu")
+![](img/p4_post_graphs_submenu.png "Graph manager sub-menu")
 
 <!-- *Figure. Example of Particle-Analytics Toolbox within GiD.* -->
 
@@ -10,7 +10,7 @@ This command displays a sub-menu to create/edit/save graphs.
 
 * **Create Graph.** Open the Graphs Creation window. This command is used to create a new graph as a combination of existing graphs.
 
-  ![Alt Text](img/p4_post_graphs_create.png "Graph manager sub-menu")
+  ![](img/p4_post_graphs_create.png "Graph manager sub-menu")
 
 * **Clear Graphs.** This option clean the graphs buffer in GiD.
 

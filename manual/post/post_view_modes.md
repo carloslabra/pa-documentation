@@ -5,7 +5,7 @@ rendering techniques for the particle visualization. This option automatically c
 Texture, Nice and Quick.
 For further details, please check the GiD help: `Help > Postprocessing > Options Menu > Geometry > Sphere options`.
 
-![Alt Text](img/post_sphere_view_modes.png "Sphere view modes")
+![](img/post_sphere_view_modes.png "Sphere view modes")
 
 > NOTE:
 > * The recommended view mode for large models is Internal Texture.

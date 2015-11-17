@@ -42,7 +42,7 @@ The exported files with the information of the particles and the contacts follow
 described in the Apendix A of the Particle-Analytics user manual.
 
 
-![Screenshot](img/Bucket_geo_kin.png)
+![](img/Bucket_geo_kin.png)
 
 *Figure 1: Sketch of the bucket geometry and the kinematics during the digging cycle.*
 
@@ -60,7 +60,7 @@ DEM simulation was created. The following steps are necessary to create the rect
 2. Extrude the surface to a volume: `Utilities > Copy`. The rectangular surface will be extrude in z direction to create the rectangular box. A snapshot of the Copy tool 2options to do this task is shown in figure 2. After settin-up the different field, click Select and with the mouse select the rectangle. Then click finish in the window of the Copy tool and the rectangular box is created. The image can be rotated using
 the trackball tool to check that the box is created (see Figure 4b).
 
-![Screenshot](img/Copy_1.png)
+![](img/Copy_1.png)
 
 *Figure 2: Snapshot of the Copy tool where it is shown the different options to extrude the rectangle to a rectangular box.*
 
@@ -81,12 +81,12 @@ that must be 0.0045 as explained in the previous steps. Finally, the mesh will b
 and it can be visualised clicking on `View mesh`. A snapshot of the created mesh is shown
 in Figure 4c.
 
-![Screenshot](img/Cartesian_mesh_1.png)
+![](img/Cartesian_mesh_1.png)
 
 *Figure 3: Snapshot of the mesh cartesian window to select the size of the mesh elements through each dimension.*
 
 
-![Screenshot](img/Rectangle_Box_mesh.png)
+![](img/Rectangle_Box_mesh.png)
 
 *Figure 4: Snapshots of the geometries: a) Rectangle; b) Rectangular box: c) Cartesian mesh generated for rectangular box.*
 
@@ -170,7 +170,7 @@ Once the figure is created, some visualisation preference can be defined as foll
   – Inverse Standard: `Options > Contour > Color scale > Inverse Standard` (the result is shown in Figure 6b).
 
 
-![Screenshot](img/Siii_standar_inverse_v3.png)
+![](img/Siii_standar_inverse_v3.png)
 
 *Figure 6: Major principal stress field for a single time-step: a) Standard color scale; b) Inverse Standard color scale.*
 
@@ -178,7 +178,7 @@ Once the figure is created, some visualisation preference can be defined as foll
 Similar procedure can be followed to visualise the solid fraction filed that is shown in Figure 7.
 In this case, standard scale color is chosen and Max and Min values are 0.65 and 0 respectively.
 
-![Screenshot](img/Solid_fraction_1.png)
+![](img/Solid_fraction_1.png)
 
 *Figure 7: Solid fraction field for a single time-step using standard color scale.*
 
@@ -195,7 +195,7 @@ previously defined path directory.
 An example of the images for different simulation steps is shown in Figure 8.
 
 
-![Screenshot](img/Particles_Siii_Solid_fraction.png)
+![](img/Particles_Siii_Solid_fraction.png)
 
 *Figure 8: Figures of the results for different time steps of the simulations. Left) Particles and bucket (obtained by EDEM). Center) Major principal stress. Right) Solid fraction.*
 

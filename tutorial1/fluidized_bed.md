@@ -8,7 +8,7 @@
 This document describes pre and post processing of fluidized bed system using Particle-Analytics tool developed in University of Edinburgh. Brief description of 3D DEM-CFD simulation is presented in following section, followed by pre and post processing of particle data (DEM). This case study was done as a post processing of validation data. High quality validation experimental data obtained was used for comparisons. Time averaged particle velocity and solid fraction profiles/contours were obtained. This case study would demonstrate how to post process DEM data obtained from simulations to compare against experiments.
 Millimeter size particles are subjected to a fluidizing velocity much greater than minimum fluidization velocity. This leads to transient bubbling/slugging regime. Bubbles are formed around the distributor plate, rise and coalesce and collapse at the free surface of the bed. Hence, bubbling and mixing behavior leads to lower solid fraction in the middle of the bed and lower particle velocities at the walls. Typical snapshot of such a phenomenon can be seen in figure 1.
 
-![Screenshot](img/snapshotbed.png)
+![](img/snapshotbed.png)
 
 *Figure 1: Typical snapshot of DEM-CFD simulation of gas-solid fluidized bed with particle size 1.2 mm and density 1000 kg/m at inlet velocity 0.9 m/s*
 
@@ -57,7 +57,7 @@ Save the project in `Menu ⇒ File ⇒ Save`.
 *Table 1: Particle information*
 
 
-![Screenshot](img/geo.png)
+![](img/geo.png)
 
 *Figure 2: Domain for meshing as produced by Particle-Analytics*
 
@@ -79,7 +79,7 @@ Following settings are used in the Particle-Analytics tool box for present examp
 - `STEP FREQUENCY`: 1
 - `FILTERING ID`: Filter Group ID 3 (these are fixed particles in the simulations for present case)
 
-![Screenshot](img/geo1.png)
+![](img/geo1.png)
 
 *Figure 3: Regular structured mesh for post processing*
 
@@ -106,13 +106,13 @@ After selecting appropriate settings, press `SELECT` and save the project file o
 
 These can be visualized by: Go to `Menu > View Results > Smooth Contour Fill > Solid Fraction or Velocity X,Y`. This would provide us time averaged smooth contour plots like in figure 4.
 
-![Screenshot](img/time-averaged.png)
+![](img/time-averaged.png)
 
 *Figure 4: Time averaged contour plots of bubbling fluidized beds showing (a) Averaged velocity in axial direction (b) Averaged vertical velocity (c) Averaged solid fraction*
 
 For obtaining graph (say a line plot) 5, Use utilities to make line plots at different heights Y = 0.0164 m and 0.0312 m. Go to: `Several graphs option > Line graph > Solid fraction`. This will prompt to select points, enter coordinates as *(0.0, 0.0164)* and *(0.044, 0.0164)* to plot line variation graph at height 0.0164 m. (Refer to Visualization manual if more information is required)
 
-![Screenshot](img/line-plots.png)
+![](img/line-plots.png)
 
 *Figure 5: Line plot variation in axial direction for solid fraction at heights 0.0164 and 0.0312 m*
 

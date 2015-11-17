@@ -7,23 +7,23 @@ Begin by getting an installer executable from Particle Analytics.  If you do not
 ## Running the Installer
 
 Once you run the installer, a window like this should appear ...
-![Screenshot](install/img/installerPage1.png)
+![](install/img/installerPage1.png "Installation: Settings")
 
 There should be no need to edit the _Settings_, simply hit _Next_ to get the next installer window ...
 
-![Screenshot](install/img/installerPage2.png)
+![](install/img/installerPage2.png "Installation: Location")
 
 Here, you set the installation folder.  Those without administrator priviledges will need to chose a location which is appropriate to the priviledges that they do have.  Whilst the image above shows an x64 windows installer, a linux installer will chose a different (more appropriate) default installation location.
 
-![Screenshot](install/img/installerPage3.png)
+![](install/img/installerPage3.png "Installation: Custom?")
 
 The next job is to decide whether you're are opting for a Complete or a Custom build.  This probably comes down to whether you want documentation, or not.  Installing documentation is recommended.
 
-![Screenshot](install/img/installerPage5.png)
+![](install/img/installerPage5.png "Installation: Licensing")
 
 Accepting the _End User Licence Agreement_ is a necessary step if you with to continue with the installation.  You are encouraged to read this agreement before accepting.
 
-![Screenshot](install/img/installerPage8.png)
+![](install/img/installerPage8.png "Installation: Installing")
 
 The penultimate screen will show a progress bar as the different components install.  Once this is finished, simply hit _Finish_ on the final installer window.
 
@@ -32,7 +32,7 @@ The penultimate screen will show a progress bar as the different components inst
 
 When you first run Particle-Analytics, a window like this should appear ...
 
-![Screenshot](install/img/licencePage1.png)
+![](install/img/licencePage1.png "Password specifics")
 
 Copy the _Name_, _Operating System_ and _Sysinfo_ data from that window and contact Particle Analytics (_support@particle-analytics.com_) with the information.  We will then give you a licence file specific to your machine.  Save this file in a location you can find again.
 

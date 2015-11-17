@@ -10,7 +10,7 @@ The toolbox provides both a coarse graining method for projecting the results on
 Some of the results are shown in Figure 1.
 The coarse-grained density _ρ_ is provided by equation:
 
-![Screenshot](img/Eqn01.png)
+![](img/Eqn01.png "Coarse-grained density")
 
 where 
 
@@ -21,17 +21,17 @@ where
 
 The coarse-grained velocity _**V**_ is provided from equation 
 
-![Screenshot](img/Eqn02.png)
+![](img/Eqn02.png "Coarse-grained velocity")
 
 where _**p**_ is the coarse-grained momentum density.
 
 The stress tensor is given by equation
 
-![Screenshot](img/Eqn03.png)
+![](img/Eqn03.png "Stress tensor")
 
 where *f<sub>ijα</sub>* is the interaction force between two particles, *r<sub>ijβ</sub>* is the branch vector, *s* is the integral of the
 branch vector and *v'* is the fluctuating velocity of the particle.
 
-![Screenshot](img/P4_Example_Fluidbed.png)
+![](img/P4_Example_Fluidbed.png "(b) and (c) are P-A results")
 *Figure 1. Particle-Analytics toolbox in use - Post-processing on a fluidized bed. a) Particles visualization.
 b) Spatial averaged density. c) Spatial and temporal averaged density over 20 sec.*

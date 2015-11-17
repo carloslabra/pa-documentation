@@ -12,7 +12,7 @@ describes the use of Particle-Analytics to analyse a DEM simulation of a uniaxia
 properties such as density, packing fraction and stress and to search for phenomena
 such as local shear bands.
 
-![Screenshot](img/EPTSimulationProcess.png)
+![](img/EPTSimulationProcess.png)
 
 *Figure 1: DEM model of uniaxial test - From left to right: a) filling, b) loading, c)
 unloading, and d) unconfined compression.*
@@ -26,7 +26,7 @@ Figure 1 and include the filling of sample, the confined compression and the unl
 and unconfined compression to failure of a sample. The failed assembly of particles
 following unconfined compression is shown in Figure 2.
 
-![Screenshot](img/EPT_Simulation_1.png)
+![](img/EPT_Simulation_1.png)
 *Figure 2: End of unconfined uniaxial test - Failed assembly of particles*
 
 The DEM simulations were carried out using EDEM with a sampling frequency of 1000
@@ -73,7 +73,7 @@ and no bias is selected for the mesh (Both Concentric element distribution optio
 set to 0.0)
 
 
-![Screenshot](img/geometry_and_mesh.png)
+![](img/geometry_and_mesh.png)
 *Figure 3: Initial Pre-processing - Cylinder before and after meshing. Left) Geometry; Right) Structured mesh for post-processing.*
 
 Next extrude the cylinder base to form the 3D volume to be used for the mesh: Extrude this in z direction by `Utilities > Copy`.
@@ -154,7 +154,7 @@ The data will be initially projected on the outside of the mesh when loaded as i
 To view the results at the centre of the assembly cut planes are introduced.
 Two orthogonal planes are used in this example.
 
-![Screenshot](img/ProcessessedAssembly_1.png)
+![](img/ProcessessedAssembly_1.png)
 *Figure 4: Meshed geometry and cut planes with results. Left) Processed Assembly; Right) Cut Assembly*
 
 To create these planes first switch the view to the xy plane using the List of views option
@@ -177,7 +177,7 @@ This will provide time averaged smooth contour plots like in Figures 5 and 8.
 Figure 5 shows how the packing of the assembly in terms of both the bulk density and
 packing fraction. Areas of high solid fraction lead to higher bulk densities.
 
-![Screenshot](img/density_and_solid-fraction.png)
+![](img/density_and_solid-fraction.png)
 *Figure 5: Results on Plane XZ - For assessing the packing of the assembly. Left) Density; Right) Solid fraction.*
 
 
@@ -185,11 +185,11 @@ As the assembly contained a fixed number of particles it is possible to recover 
 cumulative displacements (Figure 6) starting from the first timestep of the processed
 data file.
 
-![Screenshot](img/Displacements_X_and_Z.png)
+![](img/Displacements_X_and_Z.png)
 *Figure 6: Results on Plane XZ - Cumulative displacements. Left) Displacement X; Right) Displacement Z.*
 
 
-![Screenshot](img/EPT_UC_Shear_XZ_and_YZ.png)
+![](img/EPT_UC_Shear_XZ_and_YZ.png)
 *Figure 7: Shear Stresses - For assessing the failure mode of the assembly. Left) Shear Stress on Plane XZ; Right) Shear Stress on Plane YZ.*
 
 
@@ -199,7 +199,7 @@ assembly of particles is failing and determine the failure mode - in this case t
 shear failure with conjugate shear bands. This is better displayed in Figure 8b where the
 displacements vectors are plotted to give a representation of the final failed state.
 
-![Screenshot](img/Velocity_X_and_Displacement_Vectors.png)
+![](img/Velocity_X_and_Displacement_Vectors.png)
 *Figure 8: Results on Plane XZ - Assessing the failure mode. Left) Velocity in horizontal direction; Right) Displacement vectors*
 
 
@@ -214,7 +214,7 @@ the sample which will be the peak value, which in this case is approximately 15 
 - This generates a graph of stress against time for the selected node.
 - Repeat for as many locations as required for the point evolution against time.
 
-![Screenshot](img/Stress_Evolution_1.png)
+![](img/Stress_Evolution_1.png)
 *Figure 9: End of unconfined uniaxial test - Failed assembly of particles following unconfined compression*
 
 
@@ -229,7 +229,7 @@ Figure 10 is plotted as a line variation in the Z direction:
 - Input the coordinates of the line through the command window or by selecting the nodes on the mesh. This generates a graph of density variation along this line for a single timestep.
 - Repeat for as many timesteps as required to see the variation along nodes at different times.
 
-![Screenshot](img/DensityGraph_1.png)
+![](img/DensityGraph_1.png)
 *Figure 10: End of unconfined uniaxial test - Failed assembly of particles following unconfined compression*
 
 

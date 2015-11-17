@@ -94,14 +94,14 @@ which converts the .csv files exported from EDEM to the required P3 or Particle-
 The converter can be selected as shown in 3.1. Upon selection, the option to convert to either P3 or Particle-Analytics
 files is displayed in the *Particle-Analytics toolbox* submenu as:
 
-![Alt Text](img/post_edem_converter_submenu.png "Example of Particle-Analytics Toolbox within GiD")
+![](img/pre_tools_pulldown.png "Toolbox submenu")
 
 Selecting either option displays an input box such as those presented in A where the EDEM input files
 and Particle-Analytics output files are specified. Once the files have been correctly selected, the conversion process
 is started by pressing the convert button. Pressing the convert button will open the info window (A),
 which provides details of the conversion for each timestep as the files are being processed.
 
-![Alt Text](img/post_edem_converter_windows.png "Example of Particle-Analytics Toolbox within GiD")
+![](img/p4_convert_edem_to_p3.png "EDEM to P3") ![](img/p4_convert_edem_to_p4.png "EDEM to P4")
 
 Once the files have been converted to the Particle-Analytics file format, the data can then be used with the Particle-Analytics Toolbox
 for advanced post-processing of the data. Calculation and post-processing of the data can only take place
@@ -115,7 +115,7 @@ if a mesh of nodes has been created within GiD. This will be discussed in the fo
 > where periodic boundaries are employed in the simulation and this is the only time contacts should
 > be rejected.
 
-![Alt Text](img/post_edem_converter_info.png "Example of Particle-Analytics Toolbox within GiD")
+![](img/post_edem_converter_info.png "Example of Particle-Analytics Toolbox within GiD")
 
 *EDEM to Particle-Analytics file converter info window*
 
