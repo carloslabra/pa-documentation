@@ -9,7 +9,7 @@ Once the user has some results to analyse, they can activate the post-processing
 The Post-processing toolbar is made up from the following ...
 
 |:-------:|:------|
-| ![](img/PA_help.png)       | **Particle-Analytics Documentation** |
+| ![](img/PA_help.png)       | **Particle Analytics Documentation** |
 | ![](img/post_open.png)     | **Load post-process File** : Show the list of result files available in the project. |
 | ![](img/post_graphs.png)   | **Graph Manager** : Allows load/saving/manipulate of graph data. |
 | ![](img/toolbox.png)       | **Post-process Utilities** : List of available routines for manipulation and export results. |

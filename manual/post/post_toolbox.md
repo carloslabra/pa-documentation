@@ -1,6 +1,6 @@
-# Toolbox
+# Converter Toolbox
 
-![The "Toolbox" icon](img/toolbox.png)
+![The "Converter Toolbox" icon](img/toolbox.png)
 
 This option gives the user access to different pre-processing tools. Currently the toolbox is reserved for
 converters from partner-exported files to Particle-Analytics file formats.
