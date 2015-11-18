@@ -1,8 +1,8 @@
 # Animations tool
 
-![](img/animation_icon.png "The animation icon")
+![](img/post_animator.png "The animation icon")
 
-One launches the `Result animation window` by clicking on its icon, shown above, on the main toolbar.
+One launches the `Result animation window` by clicking on the icon, shown above, on the post-processing toolbar.
 
 ![](img/p4_post_animations.png "Animations")
 
