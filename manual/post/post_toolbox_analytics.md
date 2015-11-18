@@ -6,7 +6,7 @@ This option displays post-processing utilities: the list of tools available for 
 
 #### Export current result
 
-This option exports, in a plain text format, a chosen component of the result currently selected, for each node in the coarse-graining mesh, for the current timestep.
+This option exports, in a plain text format, a chosen component of the result currently selected, for each node in the coarse-graining mesh, for the current timestep.  If Time-averaging is active, the export result will be the time-averaged result, rather than the result for a particular timestep.
 
 An example is shown below; both the `Export Current Result` and `Result Exported` windows are shown - the latter appears once the `Export` button has been clicked :
 
