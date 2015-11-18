@@ -28,7 +28,7 @@ For more details, see [Using Particle-Analytics with EDEM](post_edem.md).
 
 #### **Converter: EDEM Collision to P4**
 
-![EDEM collisions converter](img/edemCollision_to_P4.png)
+![EDEM collisions converter](img/edemCollision_to_p4.png)
 
 #### **Converter: LIGGHTS to P4post**
 
