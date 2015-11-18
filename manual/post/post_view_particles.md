@@ -1,12 +1,14 @@
 # Visualizing particles
 
-After activate *Print Particles* in the OUTPUT options of Particle-Analytics and run the Particle-Analytics processing, the user can
-load the particles in the *Load post-process file* section of the toolbar (with GiD in post-process mode).
-The files containing the particles, and optionally the contacts, have the extension .particles after the user
-defined name.
+Having previously activated *Print Particles* in the `Output` tab of the [Post-Processing Settings](post_processing_options_frame4.md) and performed processing via the [Start Processing](post_processing_control.md) button of the [Particle-Analytics Toolbar](post_preprocessing.md), the user can load the particles via the [*Load post-process file* section](post_load_results.md) of the [Post-processing Toolbar](post_postprocessing.md).
 
-By default, the Internal-texture visualization mode is activated and both, particles and contacts, are
-plotted in the screen. The control for activate/deactivate, transparencies and style for the different groups
+The files containing the particles, and optionally the contacts, have the extension .particles after the user-defined name.  It is these files that are considered, here.
+
+By default, the [*Texture* view mode](post_view_modes.md) is activated and both particles and contacts are
+rendered. 
+
+
+The control for activate/deactivate, transparencies and style, for the different groups
 of particles or contacts, the Display Style windows of GiD can be used [].
 The particles file just contain the information of particles and contacts, and no information of geometry
 is stored.
