@@ -6,9 +6,9 @@ This option displays post-processing utilities: the list of tools available for 
 
 #### Export current result
 
-This option exports, in a plain text format, the result currently selected, for each node in the coarse-graining mesh, for the current timestep.
+This option exports, in a plain text format, a chosen component of the result currently selected, for each node in the coarse-graining mesh, for the current timestep.
 
-An example is shown below; both the  `Export Current Result` and `Result Exported` windows are shown - the latter appears once the `Export` button has been clicked :
+An example is shown below; both the `Export Current Result` and `Result Exported` windows are shown - the latter appears once the `Export` button has been clicked :
 
   ![](img/p4_post_toolbox_export_current.png "Export current")
 
@@ -29,36 +29,51 @@ The top lines of the resulting text file read as follows ...
 9 0.00031072593992576003  
 10 0.00069418078055605292
 </pre>
-  
+
+The `Results Exported` window and the contents of the file tell me that this data is for time-step 0.615, concerning the velocity field (which is a vector) and in particular (rather than it's X, Y or Z component) it's modulus.
 
 #### Export current result Nodes
 
-This option exports in a plain text a chosen coordinate/ID and the selected result for a group of nodes in the mesh.
+This is like the previous option, `Export Current Result` only for a selection of coarse-graining nodes, rather than all the nodes in the mesh.  It exports in a plain text format the current result, for a specific selection of nodes, and pairs each result-component with either that Node's ID, or one of its X,Y or Z positional coordinates.  In this way a graph can be created when the value of the result-component is mapped against (say) the nodes' IDs.
 
-  ![](img/p4_nodespost_toolbox_export_current_nodes.png "Export current nodes")
+To select some node click the `SelectNodes` button and either click on several nodes or drag-select several nodes.  Either way, end selection by hitting the `ESC` key.  Now hit the `Export` button.
+
+An example is shown below; both the `Export Current Result Selected Nodes` and `Result Exported` windows are shown - the latter appears once the `Export` button has been clicked :
+
+  ![](img/p4_post_toolbox_export_current_nodes.png "Export current result: selected nodes")
+
+Your graph has now been created.  Or your plain text file has been created, if you did not opt for `Use GiD graph header`.  Assuming you have a graph, go to the graph manager on the [post-processing toolbar](post_postprocessing.md) and select `Update Graphs` to get your newly-created graph into your project.  Now select `Graph Load` and pick your new graph - you should see something like the following:
+
+  ![](img/p4_post_toolbox_export_current_nodes_graph.png "Export current result: selected nodes - the output")
+
+Note there is an advantage here over a graph which slices through the data at (say) a particular Z value.  In the slice scenario, when the slice passes between coarse-graining nodes, cutting some edge in the coarse-graining mesh, the value you see in your graph is an interpolated value got from the coarse-graining nodes at either end of the edge - so you introduce an extra level of interpolation.  With the method described here, no such extra interpolation is involved - the values come directly from the nodes.
 
 #### Average result Nodes
 
-The option calculates the average value for the selected result in a user defined group of nodes.
-The results shown are: Number of nodes for the average, the average value, and the standard deviation of the value.
+This option follows a similar path to the previous option, `Export Current Result Nodes`, in that having chosen it, the user must select several nodes exactly as described above.  Upon exiting node-selection, by hitting the `ESC` key, Particle-Analytics calculates the average value for the current result-component, over that group of nodes.
+
+The results appear in a pop-up window and consist of: 
+
+ * Number of nodes selected, 
+ * the average value of the current result-component over those nodes, and 
+ * the standard deviation of the same.
 
 #### Add legend
 
-Display the Comment windows to visualize a legend with the present result.
-(To see the detailed list of options available in GiD help: `Help > General Aspects > Utilities Menu > Tools > Comments > Postprocessing`)
+Display the Comments window to visualize a legend with the present result.  See:
+
+* `Help > Viz Manual... > GENERAL ASPECTS > Utilities Menu > Tools > Comments > Postprocessing` 
+
+for more information.
 
 #### Convert GiD particles to P3
 
-The option write a Particle-Analytics file with the particle information using the Particle-Analytics format.
-This is useful to process old simulations available in GiD post-process format.
+The option here is to write out a Particle-Analytics file containing particle information got from old simulations loaded in the GiD post-process format.
 
-  ![](img/p4_post_toolbox_export_particles.png "export current")
+  ![](img/p4_post_toolbox_export_particles.png "GiD to P3")
 
 #### Create Graph current result nodes
 
-The option generate a graph with a defined group of nodes for the current result, over a chosen coordinate/node-ID.
-Similar to *[Export current result nodes]*, but sending the information to the graph buffer without write a file.
-
-  ![](img/p4_post_toolbox_create_graph.png "export current")
+This does exactly what `Export current result Nodes` does, only there is no plain text option - a graph is always what you get.  The other difference is that the graph exists in the project without having first to save it to a file.
 
 #### Import result current timestep
