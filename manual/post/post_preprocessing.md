@@ -9,16 +9,39 @@ Upon start-up, the Particle-Analytics toolbar is available, as shown in Fig 2, b
 
 The description of the different commands in the toolbar is presented below:
 
-|:-------:|:------|
-| ![](img/PA_help.png)      | **Particle Analytics Documentation** : |
-| ![](img/pre_settings.png) | **Post-Processing Settings** : Define input files and averaging method. |
-| ![](img/pre_surfaces.png) | **Assign geometry/surface condition** : |
-| ![](img/pre_notes.png)    | **Project Notes** : |
-| ![](img/toolbox.png)      | **Converter Toolbox** : |
-| ![](img/pre_run_exec.png) | **Start Processing** : |
-| ![](img/pre_run_info.png) | **View Info** : Info for current process |
-| ![](img/pre_run_stop.png) | **Stop Processing** : |
-
+<table>
+  <tr>
+    <td><img src="img/PA_help.png"></td>
+    <td><b>Particle Analytics Documentation</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_settings.png"></td>
+    <td><b>Post-Processing Settings</b> : Define input files and averaging method. </td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_surfaces.png"></td>
+    <td><b>Assign geometry/surface condition</b> </td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_notes.png"></td>
+    <td><b>Project Notes</b> </td>
+  </tr>
+  <tr>
+    <td><img src="img/toolbox.png"></td>
+    <td><b>Converter Toolbox</b> </td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_run_exec.png"></td>
+    <td><b>Start Processing</b> </td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_run_info.png"></td>
+    <td><b>View Info</b> : Info for current process </td>
+  </tr>
+  <tr>
+    <td><img src="img/pre_run_stop.png"></td>
+    <td><b>Stop Processing</b> </td>
+</table>
 #### Contents:
 
 * [Generating a model](post_generating_a_model.md)

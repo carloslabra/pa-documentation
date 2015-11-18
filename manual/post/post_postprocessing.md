@@ -8,13 +8,32 @@ Once the user has some results to analyse, they can activate the post-processing
 
 The Post-processing toolbar is made up from the following ...
 
-|:-------:|:------|
-| ![](img/PA_help.png)       | **Particle Analytics Documentation** |
-| ![](img/post_open.png)     | **Load post-process File** : Show the list of result files available in the project. |
-| ![](img/post_graphs.png)   | **Graph Manager** : Allows load/saving/manipulate of graph data. |
-| ![](img/toolbox.png)       | **Post-process Utilities** : List of available routines for manipulation and export results. |
-| ![](img/post_animator.png) | **Animations**  |
-| ![](img/post_refresh.png)  | **Change View Mode (Particles)** : Change the view mode/rendering for particles visualization. |
+<table>
+  <tr>
+    <td><img src="img/PA_help.png"></td>
+    <td><b>Particle Analytics Documentation</b> </td>
+  </tr>
+  <tr>
+    <td><img src="img/post_open.png"></td>
+    <td><b>Load post-process File</b> : Show the list of result files available in the project. </td>
+  </tr>
+  <tr>
+    <td><img src="img/post_graphs.png"></td>
+    <td><b>Graph Manager</b> : Allows load/saving/manipulate of graph data. </td>
+  </tr>
+  <tr>
+    <td><img src="img/toolbox.png"></td>
+    <td><b>Post-process Utilities</b> : List of available routines for manipulation and export results. </td>
+  </tr>
+  <tr>
+    <td><img src="img/post_animator.png"></td>
+    <td><b>Animations</b>  </td>
+  </tr>
+  <tr>
+    <td><img src="img/post_refresh.png"></td>
+    <td><b>Change View Mode (Particles)</b> : Change the view mode/rendering for particles visualization. </td>
+  </tr>
+</table>
 
 
 #### Contents:
