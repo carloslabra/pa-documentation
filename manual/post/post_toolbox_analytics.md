@@ -77,3 +77,13 @@ The option here is to write out a Particle-Analytics file containing particle in
 This does exactly what `Export current result Nodes` does, only there is no plain text option - a graph is always what you get.  The other difference is that the graph exists in the project without having first to save it to a file.
 
 #### Import result current timestep
+
+Users who have data from outwith their DEM project (perhaps data from a CFD solution) can pull that data into Particle-Analytics here, to visualize it in the post-processor, or combine it with results from their DEM solution to create new results which are a combination of the two.
+
+Optionally, upon loading, the data can be manipulated as follows ...
+
+ * First, (if the `Abs()` radio button is `on`) take it's absolute value. 
+ * Next, (if the `Scale` radio button is `on`) scale the value from the first step using the user-provided scale factor, and
+ * Finally, (if the `Add` radio button is `on`) increment the value from the second step using the user-provided increment.
+
+Using any combination of the above (including none) is valid.
