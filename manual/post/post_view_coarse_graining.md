@@ -1,36 +1,31 @@
 # Visualizing averaged results
 
-After the model is processed and the Particle-Analytics output files are generated, the standard visualization capabilities
-of GiD can be used, together with a set of special tools and commands specific of Particle-Analytics for the analysis of
-the results.
+After the model is processed and the Particle-Analytics output files are generated, a number of visualization and results-analysis tools can be brought into play.
 
-The output file can load the particles in the *Load post-process file* section of the toolbar (with GiD in
-post-process mode).
+One can load the coarse-graining mesh via the [*Load post-process file* section](post_load_results.md) of the [Post-processing Toolbar](post_postprocessing.md).
 
-Once the file is loaded, the different meshes used in the process will appear in the Display Style window.
-To visualize the averaged results, the toolbar *View Results Menu* can be used (`Menu > View results`), or through the Results Window [].
+Once the file is loaded, the different meshes used in the process will appear in the [`Select & Display Style` window](post_view_particles.md).
 
-Based in the same previous example of particle visualization, the figure below depicted the density
-projected over a 3D volumetric mesh (Tetrahedra) and a fine 3D surface mesh (triangles) as a slice (XZ)
-in the middle of the domain.
+To visualize the averaged results, open the `View Results and Deformation` window (`Windows > View results...` or `CTRL-d`).
 
-![](img/post_cg_display_density.png "Sphere view modes")
+The figure below, which uses the same solution that dominates [the previous section](post_view_particles.md), depicts the density projected first onto a volumetric mesh of tetrahedra, and then onto a planar mesh of triangles which slices through the middle of the domain.
 
+![](img/post_cg_display_density.png "Volumetric data versus planar slice")
 
-The interior of the volumetric mesh can be visualized through cut planes defined over different directions:
+The interior of the volumetric mesh can be visualized through slicing planes defined over different directions:
 
-* `Menu > Do cuts > Cut plane > Succession`.
+* See the `Cut Plane > Succession` section of `Help > Viz Manual... > POSTPROCESSING > Do Cuts Menu`
 
 * Define the cutting axis by two points. Enter first point: *(0.0 -0.2 0.0)*, and second point: *(0.0 0.2 0.0)*.
 
 * Enter the number of cut surfaces along the defined line: 4. Each cut surface will appear as a different
-  layer in *Display Style* window, and can be visualized deactivating the volume mesh ().
+  layer in the [`Select & Display Style` window](post_view_particles.md), and can be visualized by deactivating the volume mesh, therein.
 
-  ![](img/post_cg_display_density_vert_cuts.png "Sphere view modes")
+  ![](img/post_cg_display_density_vert_cuts.png "4 slices along the Y axis")
 
-* Activating again the volumetric mesh and deactivating the cuts, it is possible generate new cuts in a different direction
+* Reactivating the volumetric mesh and deactivating the cuts, it is possible generate new cuts in a different direction
 
-* Selecting a new set of successions in direction Z. First point: *(0.0 0.0 -0.2)*, second point: *(0.0 0.0 0.2)*, and 4 cut surfaces.
+* Selecting a new set of successions in direction Z (First point: *(0.0 0.0 -0.2)*, second point: *(0.0 0.0 0.2)*, and 4 cut surfaces) gives ...
 
   ![](img/post_cg_display_density_horiz_cuts.png "Sphere view modes")
 
@@ -40,16 +35,23 @@ The interior of the volumetric mesh can be visualized through cut planes defined
 ## Graphs
 
 
-To analyze the results in the mesh, graphs can be generated for the temporal evolution of a variable in a
-defined point or the spatial distribution of a certain variable.
+To analyse the results in the mesh, graphs can be generated for the temporal evolution of a variable at a
+defined point or for the spatial distribution of a chosen variable.  Each is outlined, below:
+
+##### Temporal
+
 The generation of a graph with the temporal evolution of a variable in a predefined point can be performed
 by:
 
-* `Menu > View results > Graphs > Point evolution > Variable (density)`.
+* open the `View Results and Deformation` window (`Windows > View results...` or `CTRL-d`).
+
+* In the `Graphs > Point evolution > Variable (density)` section of that window, chose `density`.
 
 * Enter the coordinates of the point: *(0.3 0.0 0.05)*. More points can be entered or *ESC* to finish.
 
   ![](img/post_cg_display_density_graph_evolution.png "Sphere view modes")
+
+##### Spatial
 
 In a similar way, the spatial distribution of a variable in a defined direction can be plotted:
 

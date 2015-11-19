@@ -9,7 +9,7 @@ rendered.
 
 ![](img/viewStyleIcon.png "`View Style` icon")
 
-The control over whether a group of contacts/particles is rendered, and how they are rendered (as lines, as surfaces, as a combination of both, with(out) transparency, etc) is via the `View style` button (shown above), which opens the `Settings & Display Style` window.  In the example below, the toggles in the `I/O` column of the `Settings & Display Style` window have been set so that only particle-to-particle contacts are rendered :
+The control over whether a group of contacts/particles is rendered, and how they are rendered (as lines, as surfaces, as a combination of both, with(out) transparency, etc) is via the `View style` button (shown above), which opens the `Select & Display Style` window.  In the example below, the toggles in the `I/O` column of the `Select & Display Style` window have been set so that only particle-to-particle contacts are rendered :
 
 ![](img/p2pContacts_forceMagnitude.png "Contacts, visualized")
 
@@ -18,7 +18,7 @@ is stored.  Here we see the contrast between just rendering the particles, and j
 
 ![](img/post_particle-contact_visualization.png "Visualizing Particles, or Contacts?")
 
-If the geometry or mesh is required in the visualization of the particles/contacts, the option *Draw model* in `Preprocess information` section of the `Settings & Display Style` window can be set to something other than `None`.  One must have first loaded the geometry/mesh in the pre-processor. Whether the geometry appears at all, or is opaque, or transparent, can be controlled via the `Layers and groups` window, which is opened by hitting the *Open layers window* button, in `Preprocess information` section of the `Settings & Display Style` window.  Here, the geometry has been set to transparent :
+If the geometry or mesh is required in the visualization of the particles/contacts, the option *Draw model* in `Preprocess information` section of the `Select & Display Style` window can be set to something other than `None`.  One must have first loaded the geometry/mesh in the pre-processor. Whether the geometry appears at all, or is opaque, or transparent, can be controlled via the `Layers and groups` window, which is opened by hitting the *Open layers window* button, in `Preprocess information` section of the `Select & Display Style` window.  Here, the geometry has been set to transparent :
 
 ![](img/post_particle_display_style.png "Particles with transparent geometry")
 
