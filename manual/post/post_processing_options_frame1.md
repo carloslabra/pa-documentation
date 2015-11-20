@@ -9,7 +9,7 @@ This section is used for the definition of the particles files to be processed. 
 * **Particle Input File** : This options allows the user to chose the input (.p3p/.p4p) file to be processed. In the case of the experimental liggghts dump file, the file extension expected is (.p).
 
 * **Use Contacts file** : [on/off] This options activates the processing of particle-particle and particle-
-wall contact files if they are detected. Particle-Analytics assumes that contact files have the same name as the particles file, with extensions .p3c and .p3w
+geometry contact files if they are detected. Particle-Analytics assumes that contact files have the same name as the particles file, with extensions *.p3c* and *.p3w*, respectively.
 
 * **Use Geometry/Surface file** : [on/off] This options activates in the inclusion of surface geometry.
 

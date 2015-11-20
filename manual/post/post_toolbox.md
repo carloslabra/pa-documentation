@@ -9,15 +9,26 @@ Once clicked, the Toolbox pull-down menu will appear, showing the different conv
 
 ![The "Toolbox" pulldown menu](img/pre_tools_pulldown.png)
 
+#### Converter Essentials
+
+Pressing the convert button will open the info window, which provides details of the conversion for each time-step as the files are being processed :
+
+![](img/post_edem_converter_info.png "EDEM to P3 file converter info window")
+
+Once the files have been converted to the Particle-Analytics file format, the data can then be used with the Particle-Analytics Toolbox for advanced post-processing of the data. Calculation and post-processing of the data can only take place if [a mesh of nodes has been created within Particle-Analytics](post_generating_a_model.md)
+
+> NOTE:
+During the file conversion process, it is possible that some contacts will be rejected (as shown in image, above). However, only contacts that occur between virtual particles or virtual particles and geometry will be rejected. Virtual particles are generated where periodic boundaries are employed in the simulation and this is the only time contacts should be rejected.
+
 The rest of this section covers the different converters, in turn ...
 
-#### **Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) to P3**
+#### Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) to P3
 
 ![EDEM and P-A filenames](img/p4_convert_edem_to_p3.png)
 
 See the next section for some specifics.
 
-#### **Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) to P4**
+#### Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) to P4
 
 ![EDEM and P-A filenames](img/p4_convert_edem_to_p4.png)
 
@@ -26,7 +37,7 @@ simulation, whilst the newer (P4) format does not.  Extra information is provide
 
 For more details, see [Using Particle-Analytics with EDEM](post_edem.md).
 
-#### **Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) Collision to P4**
+#### Converter: [EDEM](http://www.dem-solutions.com/software/edem-software/) Collision to P4
 
 ![EDEM collisions converter](img/edemCollision_to_p4.png)
 
@@ -40,8 +51,8 @@ For more details, see [Using Particle-Analytics with EDEM](post_edem.md).
 
 Once converted, this *.p4p* file can be loaded into Particle-Analytics.
 
-#### **Converter: [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) to P4post**
+#### Converter: [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) to P4post
 
 ![Liggghts converter](img/liggghts_to_P4post.png)
 
-Users of [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) who wish to visualize their data within Particle-Analytics, without any processing, can do so via this converter.  Filenames for Particles, particle-to-particle contacts, and particle-to-wall contacts can be provided.  Additionally, geometry information can be provided.  Once converted into a Particle-Analytics *.particles* (or *.particles.bin*) file, the file can be loaded into Particle-Analytics in Post-processor mode and visualized in a number of ways.
+Users of [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) who wish to visualize their data within Particle-Analytics, without any processing, can do so via this converter.  Filenames for Particles, particle-to-particle contacts, and particle-to-geometry contacts can be provided.  Additionally, geometry information can be provided.  Once converted into a Particle-Analytics *.particles* (or *.particles.bin*) file, the file can be loaded into Particle-Analytics in Post-processor mode and visualized in a number of ways.

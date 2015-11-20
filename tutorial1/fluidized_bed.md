@@ -65,7 +65,7 @@ Save the project in `Menu ⇒ File ⇒ Save`.
 
 ##Analysis settings
 
-Dump files are created by lammps as dump.p3p, dump.p3c and dump.p3w as particle definition file, contact data and particle-wall contact data respectively.
+Dump files are created by lammps as dump.p3p, dump.p3c and dump.p3w as particle definition file, contact data and particle-geometry contact data, respectively.
 Next Particle-Analytics toolbox is loaded by going to `Data ⇒ Problem type ⇒ p4-v0.4` (whichever is the latest version).
 This will load Particle-Analytics toolbox.
 Click on the CG preferences button just below Particle-Analytics symbol.
