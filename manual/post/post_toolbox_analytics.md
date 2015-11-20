@@ -1,5 +1,7 @@
 # Toolbox for analytics
 
+![](img/toolbox.png "The post-processing toolbox icon")
+
 This option displays post-processing utilities: the list of tools available for the export and manipulation of post-processing results.
 
   ![](img/p4_post_toolbox_submenu.png "Toolbox for analytics")
