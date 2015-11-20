@@ -6,7 +6,7 @@ This section is used for the definition of the particles files to be processed. 
 
 ##### Particle Input File
 
-* **Particle Input File** : This options allows the user to chose the input (.p3p/.p4p) file to be processed. In the case of the experimental liggghts dump file, the file extension expected is (.p).
+* **Particle Input File** : This options allows the user to chose the input (.p3p/.p4p) file to be processed. In the case of the experimental [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) dump file, the file extension expected is (.p).
 
 * **Use Contacts file** : [on/off] This options activates the processing of particle-particle and particle-
 geometry contact files if they are detected. Particle-Analytics assumes that contact files have the same name as the particles file, with extensions *.p3c* and *.p3w*, respectively.

@@ -29,7 +29,7 @@ This is the summary of the documentation.
   * [Visualizing particles](manual/post/post_view_particles.md)
   * [Visualizing averaged results](manual/post/post_view_coarse_graining.md)
   * [Using Particle-Analytics with EDEM](manual/post/post_edem.md)
-  * [Using Particle-Analytics with Liggghts](manual/post/post_liggghts.md)
+  * [Using Particle-Analytics with LIGGGHTS](manual/post/post_liggghts.md)
 * [Licensing](Licensing.md)
 * [Tutorials](tutorials.md)
   * [Fluidized bed](tutorial1/fluidized_bed.md)

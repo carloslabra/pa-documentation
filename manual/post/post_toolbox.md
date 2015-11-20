@@ -53,6 +53,6 @@ Once converted, this *.p4p* file can be loaded into Particle-Analytics.
 
 #### Converter: [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) to P4post
 
-![Liggghts converter](img/liggghts_to_P4post.png)
+![LIGGGHTS converter](img/liggghts_to_P4post.png)
 
 Users of [LIGGHTS](http://www.cfdem.com/liggghts-open-source-discrete-element-method-particle-simulation-code) who wish to visualize their data within Particle-Analytics, without any processing, can do so via this converter.  Filenames for Particles, particle-to-particle contacts, and particle-to-geometry contacts can be provided.  Additionally, geometry information can be provided.  Once converted into a Particle-Analytics *.particles* (or *.particles.bin*) file, the file can be loaded into Particle-Analytics in Post-processor mode and visualized in a number of ways.

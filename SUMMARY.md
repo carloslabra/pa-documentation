@@ -28,7 +28,7 @@
    * [Visualizing particles](manual/post/post_view_particles.md)
    * [Visualizing averaged results](manual/post/post_view_coarse_graining.md)
    * [Using Particle-Analytics with EDEM](manual/post/post_edem.md)
-   * [Using Particle-Analytics with Liggghts](manual/post/post_liggghts.md)
+   * [Using Particle-Analytics with LIGGGHTS](manual/post/post_liggghts.md)
 * [Licensing](Licensing.md)
    * [Particle-Analytics Licence](licensing/particle_analytics_licence.md)
    * [3rd party licences](licensing/3rd_party_licences.md)
