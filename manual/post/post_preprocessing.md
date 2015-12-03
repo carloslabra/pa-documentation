@@ -31,6 +31,10 @@ The description of the different commands in the toolbar is presented below:
     <td><b>Converter Toolbox</b> </td>
   </tr>
   <tr>
+    <td><img src="img/otherAnalysisIcon.png"></td>
+    <td><b>Other Analysis</b> </td>
+  </tr>
+  <tr>
     <td><img src="img/pre_run_exec.png"></td>
     <td><b>Start Processing</b> </td>
   </tr>
@@ -49,4 +53,5 @@ The description of the different commands in the toolbar is presented below:
 * [Assign geometry/surface condition](post_assign_geo_and_conditions.md)
 * [Project Notes](post_notes.md)
 * [Converter Toolbox](post_toolbox.md)
+* [Other Analysis](other_analysis.md)
 * [Processing Control](post_processing_control.md)
