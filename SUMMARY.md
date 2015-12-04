@@ -18,6 +18,7 @@
        * [Assign geometry/surface condition](manual/post/post_assign_geo_and_conditions.md)
        * [Notes](manual/post/post_notes.md)
        * [Toolbox](manual/post/post_toolbox.md)
+       * [Other Analysis](manual/post/other_analysis.md)
        * [Processing control](manual/post/post_processing_control.md)
    * [After post-processing](manual/post/post_postprocessing.md)
        * [Load post-process file](manual/post/post_load_results.md)
