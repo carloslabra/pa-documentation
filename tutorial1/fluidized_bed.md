@@ -5,7 +5,7 @@
 
 ##Introduction
 
-This document describes pre and post processing of fluidized bed system using Particle-Analytics tool developed in University of Edinburgh. Brief description of 3D DEM-CFD simulation is presented in following section, followed by pre and post processing of particle data (DEM). This case study was done as a post processing of validation data. High quality validation experimental data obtained was used for comparisons. Time averaged particle velocity and solid fraction profiles/contours were obtained. This case study would demonstrate how to post process DEM data obtained from simulations to compare against experiments.
+This document describes pre and post processing of fluidized bed system using [Particle-Analytics](http://particle-analytics.com/). Brief description of 3D DEM-CFD simulation is presented in following section, followed by pre and post processing of particle data (DEM). This case study was done as a post processing of validation data. High quality validation experimental data obtained was used for comparisons. Time averaged particle velocity and solid fraction profiles/contours were obtained. This case study would demonstrate how to post process DEM data obtained from simulations to compare against experiments.
 Millimeter size particles are subjected to a fluidizing velocity much greater than minimum fluidization velocity. This leads to transient bubbling/slugging regime. Bubbles are formed around the distributor plate, rise and coalesce and collapse at the free surface of the bed. Hence, bubbling and mixing behavior leads to lower solid fraction in the middle of the bed and lower particle velocities at the walls. Typical snapshot of such a phenomenon can be seen in figure 1.
 
 ![](img/snapshotbed.png)

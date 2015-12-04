@@ -2,8 +2,7 @@
 
 In most cases where DEM is used, it is necessary to carry out some averaging of the data to a more representative scale of what is required.
 As such it is quite common for spatial averaging, temporal averaging or both to be applied to the DEM data.
-To aid the process, a toolbox for the processing of DEM data both temporally and spatially has been implemented in the University of Edinburgh.
-The toolbox has been developed to support many codes such as EDEM, PFC, DEMPack and LAMMPS and provides a simple interface for the averaging
+To aid the process, [Particle-Analytics](http://particle-analytics.com/) has been developed to support many codes such as EDEM, PFC, DEMPack and LAMMPS and provides a simple interface for the averaging
 process for the large datasets that DEM simulations produce.
 The toolbox provides both a coarse graining method for projecting the results on to a continuum field and a binning method.
 Some of the results are shown in Figure 1.1.
