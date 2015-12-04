@@ -1,0 +1,838 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Generating a model | Documentation</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.4.1">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../manual/post/post_processing_options.html" />
+    
+    
+    <link rel="prev" href="../../manual/post/post_preprocessing.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.2.1" data-basepath="../.." data-revision="Fri Dec 04 2015 14:36:11 GMT+0000 (GMT)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="http://particle-analytics.com" target="blank" class="custom-link">Particle Analytics</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Contents
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="manual/installation.html">
+            
+                
+                    <a href="../../manual/installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="manual/post.html">
+            
+                
+                    <a href="../../manual/post.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Post-Processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="manual/post/introduction.html">
+            
+                
+                    <a href="../../manual/post/introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="manual/post/post_preprocessing.html">
+            
+                
+                    <a href="../../manual/post/post_preprocessing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Preparing post-processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="manual/post/post_generating_a_model.html">
+            
+                
+                    <a href="../../manual/post/post_generating_a_model.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        Generating a model
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="manual/post/post_processing_options.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        Processing options
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" data-path="manual/post/post_processing_options_frame1.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.1.</b>
+                        
+                        Input
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.2" data-path="manual/post/post_processing_options_frame2.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.2.</b>
+                        
+                        Time Averaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.3" data-path="manual/post/post_processing_options_frame3.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.3.</b>
+                        
+                        Spatial Averaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.4" data-path="manual/post/post_processing_options_frame4.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.4.</b>
+                        
+                        Output
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.5" data-path="manual/post/post_processing_options_frame5.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.5.</b>
+                        
+                        Advanced
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="manual/post/post_assign_geo_and_conditions.html">
+            
+                
+                    <a href="../../manual/post/post_assign_geo_and_conditions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Assign geometry/surface condition
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="manual/post/post_notes.html">
+            
+                
+                    <a href="../../manual/post/post_notes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.4.</b>
+                        
+                        Notes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="manual/post/post_toolbox.html">
+            
+                
+                    <a href="../../manual/post/post_toolbox.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.5.</b>
+                        
+                        Toolbox
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="manual/post/other_analysis.html">
+            
+                
+                    <a href="../../manual/post/other_analysis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.6.</b>
+                        
+                        Other Analysis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="manual/post/post_processing_control.html">
+            
+                
+                    <a href="../../manual/post/post_processing_control.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.7.</b>
+                        
+                        Processing control
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="manual/post/post_postprocessing.html">
+            
+                
+                    <a href="../../manual/post/post_postprocessing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        After post-processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="manual/post/post_load_results.html">
+            
+                
+                    <a href="../../manual/post/post_load_results.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        Load post-process file
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="manual/post/post_graph_manager.html">
+            
+                
+                    <a href="../../manual/post/post_graph_manager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        Graph manager
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="manual/post/post_toolbox_analytics.html">
+            
+                
+                    <a href="../../manual/post/post_toolbox_analytics.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        Toolbox for analytrics
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="manual/post/post_animations.html">
+            
+                
+                    <a href="../../manual/post/post_animations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.4.</b>
+                        
+                        Animations tool
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="manual/post/post_view_modes.html">
+            
+                
+                    <a href="../../manual/post/post_view_modes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.5.</b>
+                        
+                        Change view mode
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="manual/post/post_view_particles.html">
+            
+                
+                    <a href="../../manual/post/post_view_particles.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Visualizing particles
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="manual/post/post_view_coarse_graining.html">
+            
+                
+                    <a href="../../manual/post/post_view_coarse_graining.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Visualizing averaged results
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="manual/post/post_edem.html">
+            
+                
+                    <a href="../../manual/post/post_edem.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Using Particle-Analytics with EDEM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="manual/post/post_liggghts.html">
+            
+                
+                    <a href="../../manual/post/post_liggghts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        Using Particle-Analytics with LIGGGHTS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Licensing.html">
+            
+                
+                    <a href="../../Licensing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Licensing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="licensing/particle_analytics_licence.html">
+            
+                
+                    <a href="../../licensing/particle_analytics_licence.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Particle-Analytics Licence
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="licensing/3rd_party_licences.html">
+            
+                
+                    <a href="../../licensing/3rd_party_licences.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        3rd party licences
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="tutorials.html">
+            
+                
+                    <a href="../../tutorials.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Tutorials
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="tutorial1/fluidized_bed.html">
+            
+                
+                    <a href="../../tutorial1/fluidized_bed.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Fluidized bed
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="tutorial2/silo_flow.html">
+            
+                
+                    <a href="../../tutorial2/silo_flow.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Silo flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="tutorial3/uniaxial_compression_test.html">
+            
+                
+                    <a href="../../tutorial3/uniaxial_compression_test.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Axial compression
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="tutorial4/bucket_excavator_digging.html">
+            
+                
+                    <a href="../../tutorial4/bucket_excavator_digging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Soil excavation
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+
+    
+    
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Documentation</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="generating-a-model">Generating a model</h1>
+<p>Users can generate or import the geometry or mesh to be used during the analysis.</p>
+<p>To import geometry or a mesh, different formats are accepted. The most common format for geometry are <em>IGES</em>, <em>PARASOLID</em> and <em>DXF</em>.
+Further explanation of the import procedure can be found online, <a href="https://app.box.com/shared/static/qxaxvwbbnp09n0kx6520rj40mrikigyq.pdf" target="_blank">in this tutorial</a>.</p>
+<p>To generate geometry from scratch, use the <em>Geometry &amp; View</em> toolbar, found at the left edge of the window, or through the menu: <code>Geometry &gt; Create</code>.</p>
+<p>The detail of all available geometrical operations (generating, manipulating and deleting entities) can be found in:
+<code>Help &gt; Viz Manual... &gt; PREPROCESSING &gt; Geometry Menu</code>.</p>
+<p>A useful command for simple cases is the generation of geometrical objects, where the most common objects can be created simply via:
+<code>Geometry &gt; Create &gt; Object</code>.</p>
+<p>Below, an example listing the required steps to generate a (2.0 x 2.0 x 2.0) cube is presented:</p>
+<ul>
+<li>Begin from the menu: <code>Geometry &gt; Create &gt; Object &gt; Rectangle</code></li>
+<li>First corner point: (In the <code>Command:</code> window) enter <em>0 0 0</em> and then hit the <code>RETURN</code> key</li>
+<li>Second corner point: Enter <em>2 2 0</em> and then hit the <code>RETURN</code> key. </li>
+<li>Press <code>ESC</code> key to exit Rectangle generation.</li>
+</ul>
+<p><img src="img/cube_pre_rectangle.png" alt=""></p>
+<ul>
+<li><p>Next, extrude the square to generate a cubic volume: <code>Utilities &gt; Copy...</code>.</p>
+</li>
+<li><p>In the <em>Copy</em> window, select ...</p>
+<ul>
+<li><em>Entities type = Surfaces</em>, </li>
+<li><em>Transformation = Translation</em>,</li>
+<li><em>Do Extrude = Volumes</em>,</li>
+<li><em>First point = (0.0 0.0 0.0)</em>, </li>
+<li><em>Second point = (0.0 0.0 2.0)</em>.</li>
+</ul>
+</li>
+<li><p>Press <em>Select</em> and use the mouse to drag-select your rectangle. </p>
+</li>
+<li><p>Press <em>Finish</em></p>
+</li>
+</ul>
+<p><img src="img/cube_pre_rectangle_to_volume.png" alt=""></p>
+<ul>
+<li>To change the appearance of your cube explore the <em>Render</em> options (from the menu, <code>View &gt; Render</code> or right click the mouse and chose <em>Render</em> from the resulting pull-down).</li>
+</ul>
+<p><img src="img/cube_pre_rectangle_to_volume_renders.png" alt=""></p>
+<h2 id="meshing-the-geometry">Meshing the geometry</h2>
+<p>Once the geometry is created, it be discretized into unstructured, structured or semi-
+structured mesh elements. The detail of all the meshing options can be found in <code>Help &gt; Viz Manual... &gt; PREPROCESSING &gt; Mesh Menu</code>.</p>
+<p>Using the previous cube example, one could generate a structured mesh of tetrahedral elements (with 10 elements in X and Y directions, and 20 elements in Z direction) as follows ...</p>
+<ul>
+<li><p>Opt for a structured mesh: <code>Mesh &gt; Structured &gt; Volumes &gt; Assign number of cells</code>.</p>
+</li>
+<li><p>With the mouse, drag-select your cube.  </p>
+</li>
+<li><p>Hit the <code>ESC</code> key; a value-entry window will appear.  </p>
+<ul>
+<li>Enter <em>10</em> and click <em>Assign</em></li>
+<li>Click one edge parallel to the X axis, and one edge parallel to the Y axis</li>
+<li>(As each edge is clicked, you should see it and any parallel siblings change colour)
+<br><br></li>
+</ul>
+</li>
+<li><p>Hit the <code>ESC</code> key; a value-entry window will appear.  </p>
+<ul>
+<li>Enter <em>20</em> and click <em>Assign</em></li>
+<li>Click one edge parallel to the Z axis
+<br><br></li>
+</ul>
+</li>
+<li><p>Hit the <code>ESC</code> key to exit structured mesh setup.  </p>
+</li>
+<li><p>Generate the mesh from the menu using <code>Mesh &gt; Generate mesh...</code>. </p>
+<ul>
+<li>Ignore the <em>element size</em> asked for in the <em>Mesh generation</em> window and click <code>OK</code>.
+<br><br></li>
+</ul>
+</li>
+<li><p>Once the mesh is generated, click <em>View mesh</em> in the <em>progress</em> window which has popped up</p>
+</li>
+<li><p>Change the render to <em>Flat</em> for a better visualization of the mesh.</p>
+</li>
+</ul>
+<p><img src="img/cube_pre_rectangle_to_volume_mesh_renders.png" alt=""></p>
+<ul>
+<li>The tetrahedra is the default type of 3D element. To use Hexahedra (Prism is reserved for
+semi-structured meshes), change the element type using: <code>Mesh &gt; Element type &gt; Hexahedra</code>,
+and click over the volume to assign the type and <code>ESC</code> to finish. Now generate again: <code>Mesh &gt; Generate mesh...</code>.</li>
+</ul>
+<p><img src="img/cube_pre_rectangle_to_volume_hexahedra.png" alt=""></p>
+<blockquote>
+<p>Note:</p>
+<ul>
+<li>For processing with Particle-Analytics, structured or semi-structured meshes are recommended.</li>
+<li>The element/cell size does <strong>not</strong> have any influence on the precision of the averaged values, and this is
+only related to the resolution of the mesh (number of points) where the values are projected.</li>
+<li>As the resolution of the averaged values is only related to the number of points/nodes in
+the mesh, it can be useful to use quadratic elements in the mesh, to minimize the number
+of elements whilst maintaining the number of nodes. This decreases the output
+file size and improves the visualization. To activate quadratic elements, use: <code>Mesh &gt;
+Quadratic type &gt; Quadratic</code>.</li>
+</ul>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../manual/post/post_preprocessing.html" class="navigation navigation-prev " aria-label="Previous page: Preparing post-processing"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../manual/post/post_processing_options.html" class="navigation navigation-next " aria-label="Next page: Processing options"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-collapsible-menu/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"mathjax":{"forceSVG":true}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Spatial Averaging | Documentation</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.4.1">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../manual/post/post_processing_options_frame4.html" />
+    
+    
+    <link rel="prev" href="../../manual/post/post_processing_options_frame2.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.2.2.3" data-basepath="../.." data-revision="Fri Dec 04 2015 14:36:11 GMT+0000 (GMT)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="http://particle-analytics.com" target="blank" class="custom-link">Particle Analytics</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Contents
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="manual/installation.html">
+            
+                
+                    <a href="../../manual/installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="manual/post.html">
+            
+                
+                    <a href="../../manual/post.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Post-Processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="manual/post/introduction.html">
+            
+                
+                    <a href="../../manual/post/introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="manual/post/post_preprocessing.html">
+            
+                
+                    <a href="../../manual/post/post_preprocessing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Preparing post-processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="manual/post/post_generating_a_model.html">
+            
+                
+                    <a href="../../manual/post/post_generating_a_model.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        Generating a model
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="manual/post/post_processing_options.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        Processing options
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" data-path="manual/post/post_processing_options_frame1.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.1.</b>
+                        
+                        Input
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.2" data-path="manual/post/post_processing_options_frame2.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.2.</b>
+                        
+                        Time Averaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.2.3" data-path="manual/post/post_processing_options_frame3.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.3.</b>
+                        
+                        Spatial Averaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.4" data-path="manual/post/post_processing_options_frame4.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.4.</b>
+                        
+                        Output
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.5" data-path="manual/post/post_processing_options_frame5.html">
+            
+                
+                    <a href="../../manual/post/post_processing_options_frame5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.5.</b>
+                        
+                        Advanced
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="manual/post/post_assign_geo_and_conditions.html">
+            
+                
+                    <a href="../../manual/post/post_assign_geo_and_conditions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Assign geometry/surface condition
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="manual/post/post_notes.html">
+            
+                
+                    <a href="../../manual/post/post_notes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.4.</b>
+                        
+                        Notes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="manual/post/post_toolbox.html">
+            
+                
+                    <a href="../../manual/post/post_toolbox.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.5.</b>
+                        
+                        Toolbox
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="manual/post/other_analysis.html">
+            
+                
+                    <a href="../../manual/post/other_analysis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.6.</b>
+                        
+                        Other Analysis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="manual/post/post_processing_control.html">
+            
+                
+                    <a href="../../manual/post/post_processing_control.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.7.</b>
+                        
+                        Processing control
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="manual/post/post_postprocessing.html">
+            
+                
+                    <a href="../../manual/post/post_postprocessing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        After post-processing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="manual/post/post_load_results.html">
+            
+                
+                    <a href="../../manual/post/post_load_results.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        Load post-process file
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="manual/post/post_graph_manager.html">
+            
+                
+                    <a href="../../manual/post/post_graph_manager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        Graph manager
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="manual/post/post_toolbox_analytics.html">
+            
+                
+                    <a href="../../manual/post/post_toolbox_analytics.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        Toolbox for analytrics
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="manual/post/post_animations.html">
+            
+                
+                    <a href="../../manual/post/post_animations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.4.</b>
+                        
+                        Animations tool
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="manual/post/post_view_modes.html">
+            
+                
+                    <a href="../../manual/post/post_view_modes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.5.</b>
+                        
+                        Change view mode
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="manual/post/post_view_particles.html">
+            
+                
+                    <a href="../../manual/post/post_view_particles.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Visualizing particles
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="manual/post/post_view_coarse_graining.html">
+            
+                
+                    <a href="../../manual/post/post_view_coarse_graining.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Visualizing averaged results
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="manual/post/post_edem.html">
+            
+                
+                    <a href="../../manual/post/post_edem.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Using Particle-Analytics with EDEM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="manual/post/post_liggghts.html">
+            
+                
+                    <a href="../../manual/post/post_liggghts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        Using Particle-Analytics with LIGGGHTS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Licensing.html">
+            
+                
+                    <a href="../../Licensing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Licensing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="licensing/particle_analytics_licence.html">
+            
+                
+                    <a href="../../licensing/particle_analytics_licence.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Particle-Analytics Licence
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="licensing/3rd_party_licences.html">
+            
+                
+                    <a href="../../licensing/3rd_party_licences.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        3rd party licences
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="tutorials.html">
+            
+                
+                    <a href="../../tutorials.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Tutorials
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="tutorial1/fluidized_bed.html">
+            
+                
+                    <a href="../../tutorial1/fluidized_bed.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Fluidized bed
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="tutorial2/silo_flow.html">
+            
+                
+                    <a href="../../tutorial2/silo_flow.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Silo flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="tutorial3/uniaxial_compression_test.html">
+            
+                
+                    <a href="../../tutorial3/uniaxial_compression_test.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Axial compression
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="tutorial4/bucket_excavator_digging.html">
+            
+                
+                    <a href="../../tutorial4/bucket_excavator_digging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Soil excavation
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+
+    
+    
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Documentation</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="spatial-averaging">Spatial Averaging</h2>
+<p>This tab is used for the definition of the spatial averaging process. Users can chose between
+Binning (cell-based average values) or Coarse Graining (point-based weighted-average values). In the case
+of Coarse Graining, users can activate the calculation of gradients and spatial integrals.</p>
+<p><img src="img/postProSettingsSpatialTab.png" alt="Post-Processing Settings: Spatial Averaging"></p>
+<p>The image above shows the appearance of the Spatial Averaging tab as seen when it is first navigated to.  However, its layout will change (with different fields appearing and vanishing), as different options are selected. </p>
+<ul>
+<li><p><strong>Type</strong> : [Coarse_Graining / Binning] Users can select <code>Binning</code> or <code>Coarse_Graining</code> when deciding which type of spatial averaging they want. Binning will perform a simple average over those particles found to be inside an element of the coarse graining mesh.  Coarse graining will apply a weighted-average over those particles found to be within a given radius of a vertex of the coarse graining mesh.</p>
+<ul>
+<li><strong>All of the rest of this section is devoted to <code>Coarse_Graining</code>.  If the user selects <code>Binning</code> as their spatial averaging type, there are no further options.</strong> 
+<br><br></li>
+</ul>
+</li>
+<li><p><strong>Function</strong> : [Gaussian / Heaviside] The spatial averaging function can be either <code>Heaviside</code> (where a particles&apos; contribution will be equally-weighted, no matter where it lies in the region being averaged over) or <code>Gaussian</code> (where a particles&apos; contribution varies according to the <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank">Gaussian distribution</a> of the given <code>Width</code>).</p>
+<ul>
+<li>For most of the cases, the use of <code>Coarse Graining</code> with <code>Gaussian</code> is recommended. <code>Binning</code>, and <code>Coarse Graining</code> with <code>Heaviside</code> are only for special cases, due to their limited capabilities.
+<br><br></li>
+</ul>
+</li>
+<li><p><strong>Width</strong> : For <code>Gaussian</code> function, this is the standard deviation of the function. For <code>Heaviside</code>, this determines the size of the filter footprint, as shown in the diagram, above.</p>
+<ul>
+<li><strong>All of the rest of this section is devoted to use of a <code>Gaussian</code> Function.  If the user selects <code>Heaviside</code> as their spatial averaging function, there are no further options.</strong> 
+<br><br></li>
+</ul>
+</li>
+<li><p><strong>Cutoff Factor</strong> : The <code>Cutoff Factor</code> is used in combination with the <code>Width</code> to ignore particles whose contribution will be very small.  Since the Gaussian function only becomes zero at infinity, all particles would contribute to the spatial average, most giving the tiniest of contributions, without the cut-off approach shown in the diagram, above.</p>
+<ul>
+<li>The values of <code>Width</code> and <code>Cutoff Factor</code> are problem dependent, but for quasi-static problems or low speed flows a <code>Width</code> of 2.5 to 3.0 times the average particle radius can be considered a safe value. For high speed flows and high sampling frequencies, this value can be as low as half the average radius. A <code>Cutoff Factor</code> of 3.0 can be considered safe.  In the case of high speed flows or sampling frequencies, this value can decrease to obtain a better resolution close to the boundaries.
+<br><br></li>
+</ul>
+</li>
+<li><p><strong>Spatial integral.</strong> [NO / 1D / 2D] These (probably) correspond to a 3D, 2D and 1D coarse graining mesh, respectively.</p>
+<ul>
+<li><p><code>NO</code> : If the user wants to perform spatial averaging over a ball around each vertex of a 3D coarse-graining mesh (for example, a mesh of tetrahedra) then (gradients aside) the parameters covered thus far in this section are sufficient to completely define the spatial averaging specifics.</p>
+</li>
+<li><p><code>1D</code> : If the user wants to perform spatial averaging over a circle around each vertex of a 2D coarse-graining mesh (a plane, slicing through particles) where each particle&apos;s contribution is projected onto the plane, and <em>its distance from the plane plays no part in the final result</em>, then the <code>1D</code> option is the one to chose.  The <strong>Integration direction</strong> parameter [X / Y / Z] is used to define direction in which this projection takes place.  For example, a coarse-graining mesh which lies in the &quot;X=konst&quot; plane would use the <code>X</code> integration direction.
+<br><br>
+Such averaging is not limited to the use of such a planar coarse-graining mesh; one could chose <code>1D</code> with a volumetric mesh and the projection would still take place at every vertex, but this would probably lead to repetition of your results and they would only vary <em>across</em> the chosen integration direction, not <em>along</em> it.</p>
+</li>
+<li><p><code>2D</code> : If the user wants to perform integration along a line through the data, where each particle&apos;s contribution is projected onto that line and only their distance along that line determines how they are filtered (not how far they are from it), then the <code>2D</code> option is the one to chose.  The <strong>Integration plane</strong> parameter [XY / YZ / XZ] specifies the components which are ignored, when such a projection takes place.  For example, a coarse-graining mesh consisting of a line of points parallel to the Z axis would use <code>XY</code> as the integration plane parameter.
+<br><br>
+As we the case with <code>1D</code>, such averaging is not limited to a particular type of coarse-graining mesh; one could chose <code>2D</code> with a volumetric or planar mesh and the projection would still take place at every vertex, but this would probably lead to even more repetition of your results and they would not vary <em>across</em> the chosen integration plane, only with <em>distance away from</em> it.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Calculate Gradients</strong> : [on/off] Activate the calculation of spatial gradients during the averaging process.  The gradients will be chosen in the results menu for the standard results: Density, Solid fraction, Momentum, and Velocity.</p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../manual/post/post_processing_options_frame2.html" class="navigation navigation-prev " aria-label="Previous page: Time Averaging"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../manual/post/post_processing_options_frame4.html" class="navigation navigation-next " aria-label="Next page: Output"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-collapsible-menu/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"mathjax":{"forceSVG":true}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
