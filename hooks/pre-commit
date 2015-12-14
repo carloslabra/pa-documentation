@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "version = `git describe --long`" > documentation_buildInfo.txt
+echo "build_date = `date +'%d/%m/%y'`" >> documentation_buildInfo.txt
+git add documentation_buildInfo.txt
