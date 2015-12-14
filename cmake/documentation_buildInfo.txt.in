@@ -1,7 +1,0 @@
-// If we package the output of the documentation repository for an installer, the contents of this file allow
-// us to label the corresponding package appropriately
-
-@DOCS_INFILE_EDIT_WARNING@
-
-version = @DOCS_REPOSITORY_VERSION@
-build_date = @DOCS_REPOSITORY_DATE@
