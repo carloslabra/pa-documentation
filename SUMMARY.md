@@ -23,7 +23,7 @@
    * [After post-processing](manual/post/post_postprocessing.md)
        * [Load post-process file](manual/post/post_load_results.md)
        * [Graph manager](manual/post/post_graph_manager.md)
-       * [Toolbox for analytrics](manual/post/post_toolbox_analytics.md)
+       * [Toolbox for analytics](manual/post/post_toolbox_analytics.md)
        * [Animations tool](manual/post/post_animations.md)
        * [Change view mode](manual/post/post_view_modes.md)
    * [Visualizing particles](manual/post/post_view_particles.md)
